@@ -1,10 +1,12 @@
 ---
-title: Testing a Basic Post
+post_title: Testing a Basic Post
 author: Augustina
 date: '2017-11-16'
 slug: testing-a-basic-post
 categories: []
 tags: []
+layout: post_type_probably_post
+published: false
 ---
 
 ## Testing Wordpress Integration with the Blogdown Workflow

@@ -6,10 +6,20 @@
     <description>Recent content in Posts on R Consortium Wordpress Integration Sandbox</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Dec 2016 21:49:57 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 16 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>/2017/11/16/testing-a-basic-post/</link>
+      <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/11/16/testing-a-basic-post/</guid>
+      <description>Testing Wordpress Integration with the Blogdown Workflow This is a test post without any R code or special markdown.
+ </description>
+    </item>
     
     <item>
       <title>A Plain Markdown Post</title>
