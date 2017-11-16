@@ -1,0 +1,10 @@
+blogdown::install_hugo()
+
+blogdown::new_site()
+
+config.toml
+
+menu “Addins” on the RStudio toolbar:
+- “Serve Site”
+- "New Post"
+- “Update Metadata”
