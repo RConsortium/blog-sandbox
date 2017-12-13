@@ -1,4 +1,4 @@
-baseurl = "https://rconsortium.github.io/"
+baseurl = "https://rconsortium.github.io/blog-sandbox"
 languageCode = "en-us"
 title = "R Consortium Wordpress Integration Sandbox"
 theme = "hugo-lithium-theme"
