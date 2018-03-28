@@ -3,13 +3,133 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog-sandbox/2017/11/16/testing-a-basic-post/</loc>
-    <lastmod>2017-11-16T00:00:00+00:00</lastmod>
+    <loc>/blog-sandbox/2018/01/17/recap-ropenscis-ozunconf-october-2017-melbourne/</loc>
+    <lastmod>2018-01-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog-sandbox/2016/12/30/a-plain-markdown-post/</loc>
-    <lastmod>2016-12-30T21:49:57-07:00</lastmod>
+    <loc>/blog-sandbox/2017/12/22/2018-r-consortium-silver-member-representatives-board-isc/</loc>
+    <lastmod>2017-12-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2017/12/20/recap-uros2017-conference/</loc>
+    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2017/09/18/isc-proposal-submission-failure/</loc>
+    <lastmod>2017-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2017/08/11/r-consortium-call-for-proposals-summer-2017/</loc>
+    <lastmod>2017-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2017/06/29/take-the-r-consortiums-survey-on-r/</loc>
+    <lastmod>2017-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2017/06/28/code-coverage-tool-for-r-working-group-achieves-first-release/</loc>
+    <lastmod>2017-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2017/05/15/improving-dbi-a-retrospect/</loc>
+    <lastmod>2017-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2017/04/03/q1-2017-isc-grants/</loc>
+    <lastmod>2017-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2017/01/24/isc-project-status-webinar/</loc>
+    <lastmod>2017-01-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2017/01/11/gordon-and-betty-moore-foundation-joins-r-consortium-to-encourage-development-maintenance-and-distribution-of-r-software/</loc>
+    <lastmod>2017-01-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2017/01/03/simple-features-now-on-cran/</loc>
+    <lastmod>2017-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2016/12/06/call-for-proposals/</loc>
+    <lastmod>2016-12-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2016/12/05/halfway-through-improving-dbi/</loc>
+    <lastmod>2016-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2016/11/22/rl10n-hits-its-first-milestone/</loc>
+    <lastmod>2016-11-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2016/11/03/introducing-rugs-r-consortium-r-user-group-support-program/</loc>
+    <lastmod>2016-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2016/10/17/join-us-at-watson-devcon-november-9-10/</loc>
+    <lastmod>2016-10-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2016/10/11/r-hub-public-beta/</loc>
+    <lastmod>2016-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2016/09/26/esri-joins-the-r-consortium/</loc>
+    <lastmod>2016-09-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2016/09/07/the-start-of-satrdays/</loc>
+    <lastmod>2016-09-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2016/08/22/the-r-consortium-funds-three-projects-in-july/</loc>
+    <lastmod>2016-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2016/06/26/business-insider-australia-lean-any-11-of-these-programming-languages-and-youll-always-have-a-job/</loc>
+    <lastmod>2016-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2016/06/26/infoworld-beginners-guide-to-r/</loc>
+    <lastmod>2016-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2016/06/06/first-public-version-of-the-r-hub-builder/</loc>
+    <lastmod>2016-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2016/06/06/ibm-invests-in-r-programming-language-for-data-science-joins-r-consortium/</loc>
+    <lastmod>2016-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2016/05/26/fast-company-why-the-r-programming-language-is-good-for-business/</loc>
+    <lastmod>2016-05-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -18,59 +138,148 @@
   </url>
   
   <url>
-    <loc>/blog-sandbox/2015/07/23/hello-r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/blog-sandbox/2016/03/28/fiercebigdata-r-consortium-funds-initiatives-to-advance-r-language/</loc>
+    <lastmod>2016-03-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog-sandbox/2015/01/01/lorem-ipsum/</loc>
-    <lastmod>2015-01-01T13:09:13-06:00</lastmod>
+    <loc>/blog-sandbox/2016/03/23/r-consortium-funds-technical-initiatives-community-events-and-training-to-support-r-user-community/</loc>
+    <lastmod>2016-03-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog-sandbox/categories/</loc>
+    <loc>/blog-sandbox/2016/03/11/r-consortium-outlook-2016/</loc>
+    <lastmod>2016-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2015/11/02/computer-world-new-85k-package-development-service-backed-by-r-consortium/</loc>
+    <lastmod>2015-11-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2015/11/02/fiercebigdata-r-hub-awarded-first-r-consortium-grant/</loc>
+    <lastmod>2015-11-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2015/11/02/r-consortium-awards-first-grant-to-help-advance-popular-programming-language-for-unlocking-value-from-data/</loc>
+    <lastmod>2015-11-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2015/11/02/sd-times-digest-r-consortium-announces-first-grant/</loc>
+    <lastmod>2015-11-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2015/11/02/the-var-guy-open-source-r-code-to-get-new-hub-with-help-from-the-linux-foundation/</loc>
+    <lastmod>2015-11-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2015/09/24/r-consortium-infrastructure-steering-committee-isc-elects-chair/</loc>
+    <lastmod>2015-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2015/08/17/best-practices-for-using-r-securely/</loc>
+    <lastmod>2015-08-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2015/08/13/the-r-consortium-begins-its-mission/</loc>
+    <lastmod>2015-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2015/06/30/datanami-consortium-makes-business-case-for-r-language/</loc>
+    <lastmod>2015-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2015/06/30/linux-foundation-announces-r-consortium-to-support-millions-of-users-around-the-world/</loc>
+    <lastmod>2015-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2015/06/30/venturebeat-microsoft-oracle-hp-tibco-rstudio-form-the-r-consortium-under-the-linux-foundation/</loc>
+    <lastmod>2015-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2015/06/29/computerworld-google-microsoft-oracle-back-new-r-consortium-at-linux-foundation/</loc>
+    <lastmod>2015-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/2015/06/06/revolution-analytics-r-consortium-news-roundup/</loc>
+    <lastmod>2015-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/categories/announcement/</loc>
+    <lastmod>2017-12-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/blog-sandbox/tags/plot/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/blog-sandbox/categories/blog/</loc>
+    <lastmod>2018-01-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/categories/</loc>
+    <lastmod>2017-12-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/categories/events/</loc>
+    <lastmod>2018-01-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/tags/isc-call-for-proposals/</loc>
+    <lastmod>2017-08-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog-sandbox/categories/news/</loc>
+    <lastmod>2017-12-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/blog-sandbox/post/</loc>
-    <lastmod>2017-11-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/blog-sandbox/categories/r/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/blog-sandbox/categories/r-consortium-project/</loc>
+    <lastmod>2017-12-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/blog-sandbox/</loc>
-    <lastmod>2017-11-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/blog-sandbox/tags/r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/blog-sandbox/tags/regression/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/blog-sandbox/categories/r-language/</loc>
+    <lastmod>2017-09-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/blog-sandbox/tags/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <lastmod>2017-08-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
