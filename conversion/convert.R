@@ -154,7 +154,7 @@ if (length(links3)) {
 }
 
 local({
-  if (!dir.exists(d <- '../kbroman-blog/content/')) return()
+  if (!dir.exists(d <- '../content/')) return()
   # unlink(file.path(d, 'post'), recursive = TRUE)
   file.copy('post', d, recursive = TRUE)
 })
