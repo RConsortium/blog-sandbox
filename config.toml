@@ -1,7 +1,7 @@
 baseurl = "/blog-sandbox/"
 languageCode = "en-us"
 title = "R Consortium Wordpress Integration Sandbox"
-theme = "hugo-lithium-theme"
+theme = "rconsortium-demo-theme"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -13,14 +13,21 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "About"
     url = "/about/"
 [[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
+    name = "Projects"
+    url = "/projects/"
 [[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/rstudio"
+    name = "Members"
+    url = "/members/"
+[[menu.main]]
+    name = "News"
+    url = "/news/"
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
 
+    
 [params]
-    description = "A website built through Hugo and blogdown."
+    description = "Demo of R Consortium site layout."
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.11.0"
@@ -32,8 +39,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     MathJaxVersion = "2.7.1"
 
     [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
+    url = "RConsortium_Horizontal_Pantone.png"
+    width = 200
+    height = 60
     alt = "Logo"
+    
+    [params.banner]
+    url = "logo_lf_projects_horizontal_2018.png"
+    width = 300
+    height = 15
+    alt = "Linux Foundation"
 
