@@ -8,7 +8,7 @@ install:
   
   
 before_script:
-  - for f in ./content/post/*.html; do echo $f; curl -s -H "Content-Type: text/html; charset=utf-8" --data-binary @$f https://validator.w3.org/nu/?out=text; echo ""; done
+  - for f in ${TRAVIS_BUILD_DIR}/content/post/*.html; do echo $f; curl -s -H "Content-Type: text/html; charset=utf-8" --data-binary @$f https://validator.w3.org/nu/?out=text; echo ""; done
   
 script:
   - /snap/bin/hugo
