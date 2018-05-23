@@ -3,10 +3,7 @@ dist: trusty
 
 
 before_install:
-  - pwd
-  - echo $TRAVIS_BUILD_DIR
-  - find ${TRAVIS_BUILD_DIR}/content/post/*.html
-  - for f in ${TRAVIS_BUILD_DIR}/content/post/*.html; do echo $f; curl -s -H "Content-Type: text/html; charset=utf-8" --data-binary @$f https://validator.w3.org/nu/?out=text; echo ""; done
+  - for f in ${TRAVIS_BUILD_DIR}/content/post/*.html; do echo $f; curl -s -H "Content-Type\: text/html; charset=utf-8" --data-binary @$f https://validator.w3.org/nu/?out=text; echo ""; done
   
   
   
