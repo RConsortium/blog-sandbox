@@ -1,14 +1,22 @@
 sudo: true
 dist: trusty
 
+
+before_install:
+  - pwd
+  - echo $TRAVIS_BUILD_DIR
+  - find ${TRAVIS_BUILD_DIR}/content/post/*.html
+  - for f in ${TRAVIS_BUILD_DIR}/content/post/*.html; do echo $f; curl -s -H "Content-Type: text/html; charset=utf-8" --data-binary @$f https://validator.w3.org/nu/?out=text; echo ""; done
+  
+  
+  
 install:
   - sudo apt-get --yes install snapd
   - sudo snap install hugo
   - rm -rf public || exit 0
   
   
-before_script:
-  - for f in ${TRAVIS_BUILD_DIR}/content/post/*.html; do echo $f; curl -s -H "Content-Type: text/html; charset=utf-8" --data-binary @$f https://validator.w3.org/nu/?out=text; echo ""; done
+
   
 script:
   - /snap/bin/hugo
