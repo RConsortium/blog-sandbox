@@ -2,7 +2,7 @@ sudo: true
 dist: trusty
 
 
-before-install:
+before_install:
   - for f in content/post/*.html; do \
       echo $f; \
       curl -s -H "Content-Type: text/html; charset=utf-8" --data-binary @$f https://validator.w3.org/nu/?out=text; \
