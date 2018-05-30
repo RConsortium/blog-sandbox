@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.41" />
+
+
+<title>Best Practices for Using R Securely - R Consortium Wordpress Integration Sandbox</title>
+<meta property="og:title" content="Best Practices for Using R Securely - R Consortium Wordpress Integration Sandbox">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/blog-sandbox/css/fonts.css" media="all">
+<link rel="stylesheet" href="/blog-sandbox/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="banner">
+  <a href="https://www.linuxfoundation.org/projects" class="banner-logo">
+    <img src="/blog-sandbox/images/logo_lf_projects_horizontal_2018.png"
+         width="300"
+         height="15"
+         alt="Linux Foundation">
+  </a>
+</div>
+
+        <nav class="nav">
+  <a href="/blog-sandbox/" class="nav-logo">
+    <img src="/blog-sandbox/images/RConsortium_Horizontal_Pantone.png"
+         width="200"
+         height="60"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/blog-sandbox/about/">About</a></li>
+    
+    <li><a href="/blog-sandbox/contact/">Contact</a></li>
+    
+    <li><a href="/blog-sandbox/members/">Members</a></li>
+    
+    <li><a href="/blog-sandbox/news/">News</a></li>
+    
+    <li><a href="/blog-sandbox/projects/">Projects</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">4 min read</span>
+    
+
+    
+    <h1 class="article-title">Best Practices for Using R Securely</h1>
+    
+    
+    
+    <span class="article-date">2015/08/17</span>
+    
+
+    <div class="article-content">
+      <p>[vc_row type=&ldquo;in_container&rdquo; full_screen_row_position=&ldquo;middle&rdquo; scene_position=&ldquo;center&rdquo; text_color=&ldquo;dark&rdquo; text_align=&ldquo;left&rdquo; overlay_strength=&ldquo;0.3&rdquo;][vc_column column_padding=&ldquo;no-extra-padding&rdquo; column_padding_position=&ldquo;all&rdquo; background_color_opacity=&ldquo;1&rdquo; background_hover_color_opacity=&ldquo;1&rdquo; width=&ldquo;<sup>1</sup>&frasl;<sub>1</sub>&rdquo; tablet_text_alignment=&ldquo;default&rdquo; phone_text_alignment=&ldquo;default&rdquo;][vc_column_text]The R Consortium was formed to serve the interests of the R user community, and to that end the members of the R Consortium would like to share some best practices for using R securely and safely. These recommendations are not unique to R: you should follow similar practices for any software you download from the Internet.</p>
+
+<p>If you download R (or R packages) using an unencrypted Internet connection, there is a possibility that a malicious actor could modify the code in transit (or substitute their own file), if they have access to the connection linking you and the CRAN server delivering the code. (This is possible, for example, when you download R using an unsecured Wi-Fi network.) This could potentially give an attacker the same rights you have to execute code on your system.</p>
+
+<p>To eliminate the possibility of such an attack, the R Consortium recommends all R users to always download R and R packages using an encrypted HTTPS connection from a secure server. This document describes steps you can take to configure your existing or new R installations to adhere to best practices for secure R use.</p>
+
+<p><strong>1. Always download R installers from a CRAN server using HTTPS</strong></p>
+
+<p>Every time you download R, make sure you are connected to the download site using a secure HTTPS connection. Check that the URL of the web page you are using to download R begins with &ldquo;https://&rdquo; (<em>not</em> &ldquo;http://&ldquo;) and that your browser reports the site to be secure. (Here are some ways you can check: <a href="http://info.ssl.com/article.aspx?id=10068">http://info.ssl.com/article.aspx?id=10068</a>.)</p>
+
+<p>If you are downloading R from CRAN, the following CRAN mirrors support HTTPS and we recommend using one of them:</p>
+
+<ul>
+<li><p>CRAN master (Austria): <a href="https://cran.r-project.org/">https://cran.r-project.org/</a></p></li>
+
+<li><p>RStudio (USA): <a href="https://cran.rstudio.com/">https://cran.rstudio.com/</a></p></li>
+
+<li><p>Revolution Analytics (USA): <a href="https://cran.revolutionanalytics.com/">https://cran.revolutionanalytics.com/</a></p></li>
+
+<li><p>China (Beijing) : <a href="https://mirrors.tuna.tsinghua.edu.cn/CRAN/">https://mirrors.tuna.tsinghua.edu.cn/CRAN/</a></p></li>
+
+<li><p>China (Hefei) : <a href="https://mirrors.ustc.edu.cn/CRAN/">https://mirrors.ustc.edu.cn/CRAN/</a></p></li>
+
+<li><p>Columbia (Cali) : <a href="https://www.icesi.edu.co/CRAN/">https://www.icesi.edu.co/CRAN/</a></p></li>
+
+<li><p>France: <a href="https://mirror.ibcp.fr/pub/CRAN/">https://mirror.ibcp.fr/pub/CRAN/</a></p></li>
+
+<li><p>Russia: <a href="https://cran.gis-lab.info/">https://cran.gis-lab.info/</a></p></li>
+
+<li><p>Switzerland: <a href="https://stat.ethz.ch/CRAN/">https://stat.ethz.ch/CRAN/</a></p></li>
+
+<li><p>UK (Bristol): <a href="https://www.stats.bris.ac.uk/R/">https://www.stats.bris.ac.uk/R/</a></p></li>
+
+<li><p>UK (EMBL-EBI): <a href="https://mirrors.ebi.ac.uk/CRAN/">https://mirrors.ebi.ac.uk/CRAN/</a></p></li>
+
+<li><p>USA (Berkeley): <a href="https://cran.cnr.berkeley.edu/">https://cran.cnr.Berkeley.edu/</a></p></li>
+
+<li><p>USA (KS): <a href="https://rweb.quant.ku.edu/cran/">https://rweb.quant.ku.edu/cran/</a></p></li>
+
+<li><p>USA (MI): <a href="https://cran.mtu.edu/">https://cran.mtu.edu/</a></p></li>
+
+<li><p>USA (TN): <a href="https://mirrors.nics.utk.edu/cran/">https://mirrors.nics.utk.edu/cran/</a></p></li>
+
+<li><p>USA (WA): <a href="https://cran.fhcrc.org/">https://cran.fhcrc.org/</a></p></li>
+</ul>
+
+<p>The above list is complete as of August 12, 2015. Check the <a href="https://cran.r-project.org/mirrors.html">list of CRAN Mirrors</a> for other HTTPS mirrors added since then.</p>
+
+<p><strong>2. Check the MD5 checksums of R before you begin the installation.</strong></p>
+
+<p>When you download R, the same webpage should also provide the &ldquo;md5 checksum&rdquo; for the installation. (It will be a long string of letters and digits. Here&rsquo;s an example — but remember, it will be different for every version of R: 9578948a99ee6b74ff10b71b0891b94c.) After you download the file to install R, you should generate another md5 checksum for the file you downloaded, and make sure it matches the checksum provided on the download site. (Here are instructions for doing so on <a href="http://support.microsoft.com/kb/889768">Windows</a>, <a href="http://askubuntu.com/questions/61826/how-do-i-check-the-sha1-hash-of-a-file">Linux</a>, and <a href="https://support.apple.com/en-us/HT201259">Mac OS X</a>). If the checksums do not match, do not install R using that file.</p>
+
+<p><strong>3. Configure R for secure file downloads</strong></p>
+
+<p>When downloading files over the Internet (including R packages), R must be configured such that a secure, HTTPS-enabled web server may be used.  To configure R appropriately, add code to your .Rprofile or Rprofile.site file. The instructions vary depending on the version of R and operating system you use. Note that this is the default configuration for R 3.2.2, so <strong>you do not need to take any action for R 3.2.2 or any later version of R</strong>.</p>
+
+<p><strong>R 3.2.0 and R 3.2.1</strong></p>
+
+<p><em>Windows</em>:</p>
+
+<p>options(download.file.method = &ldquo;wininet&rdquo;)</p>
+
+<p><em>OS X and Linux</em>:</p>
+
+<p>options(download.file.method = &ldquo;libcurl&rdquo;)</p>
+
+<p><strong>R 3.1 and earlier</strong></p>
+
+<p><em>Windows</em>:</p>
+
+<p>utils::setInternet2(TRUE)</p>
+
+<p>options(download.file.method = &ldquo;internal&rdquo;)</p>
+
+<p><em>OS X</em>:</p>
+
+<p>options(download.file.method = &ldquo;curl&rdquo;)</p>
+
+<p><em>Linux</em>:</p>
+
+<p>options(download.file.method = &ldquo;wget&rdquo;)</p>
+
+<p><strong>4. Always download CRAN packages from a secure mirror</strong></p>
+
+<p>The same cautions apply to R packages. Always make sure you are using a CRAN mirror that supports HTTPS, such as one from the list given in point 1 above.</p>
+
+<p>To configure R to automatically use a secure mirror, add the following code to your .Rprofile or Rprofile.site file, using the mirror of your choice (beginning with &ldquo;https://&ldquo;) in the first line.</p>
+
+<p>securemirror &lt;- &ldquo;<a href="https://cran.r-project.org/">https://cran.r-project.org/</a>&ldquo;</p>
+
+<p>local({</p>
+
+<p>r &lt;- getOption(&ldquo;repos&rdquo;);</p>
+
+<p>r[&ldquo;CRAN&rdquo;] &lt;- securemirror</p>
+
+<p>options(repos=r)</p>
+
+<p>})</p>
+
+<p>Note that you do not need to check md5 sums for packages: R automatically checks md5 checksums before it installs any package.</p>
+
+<p><strong>Summary</strong></p>
+
+<p>With these simple steps, you can eliminate one vector of attack for a malicious actor who can intercept your communications. The R Consortium recommends all R users follow this practice.[/vc_column_text][/vc_column][/vc_row]</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <p>Important copyright things go here</p>
+          </li>
+          <li>
+            <a href="/blog-sandbox/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+

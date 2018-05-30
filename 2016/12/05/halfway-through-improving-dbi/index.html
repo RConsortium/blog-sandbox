@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.41" />
+
+
+<title>Halfway through &#34;Improving DBI&#34; - R Consortium Wordpress Integration Sandbox</title>
+<meta property="og:title" content="Halfway through &#34;Improving DBI&#34; - R Consortium Wordpress Integration Sandbox">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/blog-sandbox/css/fonts.css" media="all">
+<link rel="stylesheet" href="/blog-sandbox/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="banner">
+  <a href="https://www.linuxfoundation.org/projects" class="banner-logo">
+    <img src="/blog-sandbox/images/logo_lf_projects_horizontal_2018.png"
+         width="300"
+         height="15"
+         alt="Linux Foundation">
+  </a>
+</div>
+
+        <nav class="nav">
+  <a href="/blog-sandbox/" class="nav-logo">
+    <img src="/blog-sandbox/images/RConsortium_Horizontal_Pantone.png"
+         width="200"
+         height="60"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/blog-sandbox/about/">About</a></li>
+    
+    <li><a href="/blog-sandbox/contact/">Contact</a></li>
+    
+    <li><a href="/blog-sandbox/members/">Members</a></li>
+    
+    <li><a href="/blog-sandbox/news/">News</a></li>
+    
+    <li><a href="/blog-sandbox/projects/">Projects</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">4 min read</span>
+    
+
+    
+    <h1 class="article-title">Halfway through &#34;Improving DBI&#34;</h1>
+    
+    
+    
+    <span class="article-date">2016/12/05</span>
+    
+
+    <div class="article-content">
+      
+
+<p>by Kirill Müller</p>
+
+<p>In early 2016 the R Consortium partially accepted my &ldquo;Improving DBI&rdquo; proposal. An important part is the design and implementation of a testable DBI specification. Initially I also proposed to make three DBI backends to open-source databases engines (RSQLite, RMySQL, and RPostgres) compatible to the new DBI specification, but funding allows to work on only one DBI backend. I chose RSQLite for a number of reasons:</p>
+
+<ul>
+<li><p>It is a very important package, judging by the number of reverse CRAN and Bioconductor dependencies</p></li>
+
+<li><p>It&rsquo;s easy to work with, because everything (including the database engine) is bundled with the package</p></li>
+
+<li><p>It seemed to be the most advanced package, closest to the (yet to be completed) DBI specification</p></li>
+
+<li><p>An <a href="https://twitter.com/krlmlr/status/712950420969283584">informal Twitter poll</a> supports this decision by a tiny margin</p></li>
+</ul>
+
+<p>The project has reached an important milestone, with the release of RSQLite 1.1. This post reports the progress achieved so far, and outlines the next steps.</p>
+
+<h2 id="https-gist-github-com-krlmlr-c428a49a3998d6a6618b6870746283de-rsqlite-rsqlite">[](<a href="https://gist.github.com/krlmlr/c428a49a3998d6a6618b6870746283de#rsqlite)RSQLite">https://gist.github.com/krlmlr/c428a49a3998d6a6618b6870746283de#rsqlite)RSQLite</a></h2>
+
+<p>While the RSQLite API has changed very little (hence the minor version update), it includes a complete rewrite of the original 1.0.0 sources in C++. This has considerably simplified the code, which makes future maintenance easier, and allows us to take advantage of the more sophisticated memory management tools available in Rcpp, which help protect against memory leaks and crashes.</p>
+
+<p>RSQLite 1.1 brings a number of improvements:</p>
+
+<ul>
+<li><p>New strategy for prepared queries: Create a prepared query with dbSendQuery() or dbSendStatement() and bind values with dbBind(). This allows you to efficiently re-execute the same query/statement with different parameter values iteratively (by calling dbBind() several times) or in a batch (by calling dbBind() once with a data-frame-like object).</p></li>
+
+<li><p>Support for inline parametrised queries via the param argument to dbSendQuery(), dbGetQuery(), dbSendStatement() and dbExecute(), to protect from <a href="https://xkcd.com/327/">SQL injection</a>.</p></li>
+
+<li><p>The existing methods dbSendPreparedQuery() and dbGetPreparedQuery() have been soft-deprecated, because the new API is more versatile, more consistent and stricter about parameter validation.</p></li>
+
+<li><p>Using UTF8 for queries and parameters: this mean that non-English data should just work without any additional intervention.</p></li>
+
+<li><p>Improved mapping between SQLite&rsquo;s cell-types and R&rsquo;s column-types.</p></li>
+</ul>
+
+<p>See the <a href="https://github.com/rstats-db/RSQLite/releases/tag/v1.1">release notes</a> for further changes.</p>
+
+<p>The rewrite was implemented by Hadley Wickham before the &ldquo;Improving DBI&rdquo; project started, and has been available for a long time on GitHub. Nevertheless, the CRAN release has proven much more challenging than anticipated, because so many CRAN and Bioconductor packages import it. (Maintainers of reverse dependencies might remember multiple e-mails where I was threatening to release RSQLite &ldquo;for real&rdquo;.) My aim was to break as little existing code as possible. After numerous rounds of revdep-checking and improving RSQLite, I&rsquo;m proud to report that the vast majority of reverse dependencies pass their checks just as well (and as quickly!) as they did with v1.0.0. Most tests from v1.0.0 are still present in the current codebase. This means that non-packaged code also has a good chance to work unchanged. I&rsquo;m happy to work with package maintainers or users whose code breaks after the update.</p>
+
+<h2 id="https-gist-github-com-krlmlr-c428a49a3998d6a6618b6870746283de-dbi-dbi">[](<a href="https://gist.github.com/krlmlr/c428a49a3998d6a6618b6870746283de#dbi)DBI">https://gist.github.com/krlmlr/c428a49a3998d6a6618b6870746283de#dbi)DBI</a></h2>
+
+<p>I have also released several DBI updates to CRAN, mostly to introduce new generics such as dbBind() (for parametrized/prepared queries) or dbSendStatement() and dbExecute() (for statements which don&rsquo;t return data). The definition of a formal DBI specification is part of the project, a <a href="http://rstats-db.github.io/DBI/DBIspec.html">formatted version</a> is updated continuously.</p>
+
+<h2 id="https-gist-github-com-krlmlr-c428a49a3998d6a6618b6870746283de-dbitest-dbitest">[](<a href="https://gist.github.com/krlmlr/c428a49a3998d6a6618b6870746283de#dbitest)DBItest">https://gist.github.com/krlmlr/c428a49a3998d6a6618b6870746283de#dbitest)DBItest</a></h2>
+
+<p>In addition to the textual specification in the DBI package, the DBItest package provides backend independent tests for DBI packages. It can be easily used by package authors to ensure that they follow the DBI specification. This is important because it allows you to take code that works with one DBI backend and easily switch to a different backend (providing that they both support the same SQL dialect). Literate programming techniques using advanced features of roxygen2 help keeping both code and textual specifications in close proximity, so that amendments to the text can be easily tracked back to changes of the test code, and vice versa.</p>
+
+<h2 id="https-gist-github-com-krlmlr-c428a49a3998d6a6618b6870746283de-next-steps-next-steps">[](<a href="https://gist.github.com/krlmlr/c428a49a3998d6a6618b6870746283de#next-steps)Next">https://gist.github.com/krlmlr/c428a49a3998d6a6618b6870746283de#next-steps)Next</a> steps</h2>
+
+<p>The rest of the project will focus on finalizing the specification in both code and text (mostly discussed on GitHub in the issue trackers for the <a href="https://github.com/rstats-db/DBI/issues">DBI</a> and <a href="https://github.com/rstats-db/DBItest/issues">DBItest</a> projects). At least one new helper package (to handle 64-bit integer types) will be created, and DBI, DBItest, and RSQLite will see yet another release: The first two will finalize the DBI specification, and RSQLite will fully conform to it.</p>
+
+<p>The development happens entirely on GitHub in repositories of the <a href="https://github.com/rstats-db">rstats-db</a> organization. Feel free to try out development versions of the packages found there, and to report any problems or ideas at the issue trackers.</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <p>Important copyright things go here</p>
+          </li>
+          <li>
+            <a href="/blog-sandbox/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+

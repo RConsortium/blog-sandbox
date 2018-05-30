@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R Consortium Project on R Consortium Wordpress Integration Sandbox</title>
+    <link>/blog-sandbox/categories/r-consortium-project/</link>
+    <description>Recent content in R Consortium Project on R Consortium Wordpress Integration Sandbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/blog-sandbox/categories/r-consortium-project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wanted: Your input on the next generation of R-Hub</title>
+      <link>/blog-sandbox/2018/04/19/wanted-your-input-on-the-next-generation-of-r-hub/</link>
+      <pubDate>Thu, 19 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2018/04/19/wanted-your-input-on-the-next-generation-of-r-hub/</guid>
+      <description>R-Hub, which was originally conceived as a useful tool for R package developers to build and test R packages on a variety of platforms, was the first project funded by the R Consortium. The initial version was released in June 2016. Now that the capabilities of R-Hub have progressed well beyond the proof of concept stage, the R Consortium is looking for ideas from the R community on how we can make it and even more useful for R users.</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s new with R Consortium funded projects in Q1 2018</title>
+      <link>/blog-sandbox/2018/04/16/whats-new-with-r-consortium-funded-projects-in-q1-2018/</link>
+      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2018/04/16/whats-new-with-r-consortium-funded-projects-in-q1-2018/</guid>
+      <description>In an effort to provide greater transparency with respect to R Consortium activities, the ISC is initiating process to provide quarterly updates for all R Consortium funded projects. The following is our update for Q1 2018.
+Quantities for R The r-quantities project has reached the first milestone with the design and implementation of an initial working prototype, which can be downloaded and tested from GitHub. Further details about the integration process that was necessary for the units and errors packages, as well as the next steps, were published in r-spatial.</description>
+    </item>
+    
+    <item>
+      <title>Package Licensing: Would the R Community like some help? Feedback from the trenches</title>
+      <link>/blog-sandbox/2018/04/12/package-licensing-would-the-r-community-like-some-help-feedback-from-the-trenches/</link>
+      <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2018/04/12/package-licensing-would-the-r-community-like-some-help-feedback-from-the-trenches/</guid>
+      <description>_Editor&amp;rsquo;s Note: This post comes from Mark Hornick, who leads the Code Coverage WG and serves on the Board of Directors. _
+In the Fall of 2017, the R Consortium surveyed the R Community to understand opportunities, concerns, and issues facing the community. Taking into account that feedback, the R Consortium recently surveyed package authors and maintainers on a number of topics surrounding R package licensing. Questions revolved around motivations for choice of license, comfort level in understanding license meaning and implications, importance of corporate adoption of R, and whether guidance on licensing from the R Consortium would be valuable.</description>
+    </item>
+    
+    <item>
+      <title>R Consortium welcomes R-Ladies as a top level project</title>
+      <link>/blog-sandbox/2018/03/27/r-consortium-welcomes-r-ladies-as-a-top-level-project/</link>
+      <pubDate>Tue, 27 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2018/03/27/r-consortium-welcomes-r-ladies-as-a-top-level-project/</guid>
+      <description>In 2016, R-Ladies started their effort for a global expansion, with the help from the R-Consortium. Back then there were only 4 active chapters (San Francisco, Taipei, Twin Cities and London) and the goal was to expand to 5-10 cities within the next year. The enthusiasm within the R community for local R-Ladies chapters far exceeded any possible expectations! As of March 2018, the organization has over 90 chapters and almost 19,000 members.</description>
+    </item>
+    
+    <item>
+      <title>Announcing the second round of ISC Funded Projects for 2017</title>
+      <link>/blog-sandbox/2018/02/22/announcing-second-round-isc-funded-projects-2017/</link>
+      <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2018/02/22/announcing-second-round-isc-funded-projects-2017/</guid>
+      <description>The R Consortium ISC is pleased to announce that the projects listed below were funded under the 2017 edition of the ISC Funded Projects program. This program, which provides financial support for projects that enhance the infrastructure of the R ecosystem or which benefit large segments of the R Community, has awarded $500,000 USD in grants to date. The Spring 2018 call for proposals is now open and will continue to accept proposals until midnight PST on April 1, 2018.</description>
+    </item>
+    
+    <item>
+      <title>R Consortium Call For Proposals: February 2018</title>
+      <link>/blog-sandbox/2018/01/31/r-consortium-call-proposals-february-2018/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2018/01/31/r-consortium-call-proposals-february-2018/</guid>
+      <description>by Joseph Rickert
+The first ISC Call for Proposals for 2018 is now open. We are looking for ambitious projects that will contribute to the infrastructure of the R ecosystem and benefit large sections of the R community. However, we are not likely to fund proposals that ask for large initial cash grants. The ISC tends to be conservative with initial grants, preferring projects structured in such a way that significant initial milestones can be achieved with modest amounts of cash.</description>
+    </item>
+    
+    <item>
+      <title>The 2018 R Consortium R User Group Support Program is Underway.</title>
+      <link>/blog-sandbox/2018/01/31/2018-r-consortium-r-user-group-support-program-underway/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2018/01/31/2018-r-consortium-r-user-group-support-program-underway/</guid>
+      <description>In just one year, the R Consortium through the R User Group Support program sponsored 76 R user groups and 3 small conferences with cash grants totaling just under $30,000. This program aligns with the R Consortium mission of fostering the continued growth of R community and the data science ecosystem, and has already helped bring more people to using R and contributing to the community.
+Coming off a successful 2017, we are pleased to announce the opening of the 2018 program today.</description>
+    </item>
+    
+    <item>
+      <title>2018 R Consortium Silver member representatives for Board and ISC</title>
+      <link>/blog-sandbox/2017/12/22/2018-r-consortium-silver-member-representatives-board-isc/</link>
+      <pubDate>Fri, 22 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2017/12/22/2018-r-consortium-silver-member-representatives-board-isc/</guid>
+      <description>Per the R Consortium ByLaws and ISC Charter, the Silver Member class is entitled to elect individuals representative of the Silver Member class for a term starting January 1, 2018 through December 31, 2018 as follows:
+ 1 representative to the ISC
+ 1 Silver Member Board Director per every 7 Silver Members, subject to provisions 4.2 and 4.3(d) of the R Consortium ByLaws. This means the Silver Member class can elect up to 2 Board Directors representing the class.</description>
+    </item>
+    
+    <item>
+      <title>Take the R Consortium&#39;s Survey on R!</title>
+      <link>/blog-sandbox/2017/06/29/take-the-r-consortiums-survey-on-r/</link>
+      <pubDate>Thu, 29 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2017/06/29/take-the-r-consortiums-survey-on-r/</guid>
+      <description>by Joseph Rickert and Hadley Wickham
+Help us keep the conversation going: Take the R Consortium&amp;rsquo;s Survey. Let us know: What are you thinking? What do you make of the way R is developing? How do you use R? What is important to you? How could life be better? What issues should we be addressing? What does the big picture look like? We are looking for a few clues and we would like to hear from the entire R Community.</description>
+    </item>
+    
+    <item>
+      <title>Code Coverage Tool for R Working Group Achieves First Release</title>
+      <link>/blog-sandbox/2017/06/28/code-coverage-tool-for-r-working-group-achieves-first-release/</link>
+      <pubDate>Wed, 28 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2017/06/28/code-coverage-tool-for-r-working-group-achieves-first-release/</guid>
+      <description>by Mark Hornick, Code Coverage Working Group Leader
+The &amp;ldquo;Code Coverage Tool for R&amp;rdquo; project, proposed by Oracle and approved by the R Consortium Infrastructure Steering Committee, started just over a year ago. Project goals included providing an enhanced tool that determines code coverage upon execution of a test suite, and leveraging such a tool more broadly as part of the R ecosystem.
+What is code coverage?
+As defined in Wikipedia, &amp;ldquo;code coverage is a measure used to describe the degree to which the source code of a program is executed when a particular test suite runs.</description>
+    </item>
+    
+    <item>
+      <title>Improving DBI: A Retrospect</title>
+      <link>/blog-sandbox/2017/05/15/improving-dbi-a-retrospect/</link>
+      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2017/05/15/improving-dbi-a-retrospect/</guid>
+      <description>by Kirill Müller
+The &amp;ldquo;Improving DBI&amp;rdquo; project, funded by the R consortium and started about a year ago includes the definition and implementation of a testable specification for DBI and making RSQLite fully compliant to the new specification. Besides the established DBI and RSQLite packages, I have spent a lot of time on the new DBItest package. Final updates to these packages will be pushed to CRAN at the end of May.</description>
+    </item>
+    
+    <item>
+      <title>Simple Features Now on CRAN</title>
+      <link>/blog-sandbox/2017/01/03/simple-features-now-on-cran/</link>
+      <pubDate>Tue, 03 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2017/01/03/simple-features-now-on-cran/</guid>
+      <description>by Edzer Pebesma
+Support for handling and analyzing spatial data in R goes back a long way. In 2003, a group of package developers sat together and decided to adopt a shared understanding of how spatial data should be organized in R. This led to the development of the package sp and its helper packages rgdal and rgeos. sp offers simple classes for points, lines, polygons and grids, which may be associated with further properties (attributes), and takes care of coordinate reference systems.</description>
+    </item>
+    
+    <item>
+      <title>Call for Proposals</title>
+      <link>/blog-sandbox/2016/12/06/call-for-proposals/</link>
+      <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2016/12/06/call-for-proposals/</guid>
+      <description>by Hadley Wickham
+The infrastructure Steering Committee (ISC) is pleased to announce that the committee is now ready to accept proposals for the first round of funding in 2017. The ISC is broadly interested in projects that will make a difference to the R community. Don&amp;rsquo;t be afraid to think big! We have the budget to fund ambitious projects and we want to fund infrastructure that can help large segments of the R community.</description>
+    </item>
+    
+    <item>
+      <title>Halfway through &#34;Improving DBI&#34;</title>
+      <link>/blog-sandbox/2016/12/05/halfway-through-improving-dbi/</link>
+      <pubDate>Mon, 05 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2016/12/05/halfway-through-improving-dbi/</guid>
+      <description>by Kirill Müller
+In early 2016 the R Consortium partially accepted my &amp;ldquo;Improving DBI&amp;rdquo; proposal. An important part is the design and implementation of a testable DBI specification. Initially I also proposed to make three DBI backends to open-source databases engines (RSQLite, RMySQL, and RPostgres) compatible to the new DBI specification, but funding allows to work on only one DBI backend. I chose RSQLite for a number of reasons:</description>
+    </item>
+    
+  </channel>
+</rss>

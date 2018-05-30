@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on R Consortium Wordpress Integration Sandbox</title>
+    <link>/blog-sandbox/categories/events/</link>
+    <description>Recent content in Events on R Consortium Wordpress Integration Sandbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/blog-sandbox/categories/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The 2018 R Consortium R User Group Support Program is Underway.</title>
+      <link>/blog-sandbox/2018/01/31/2018-r-consortium-r-user-group-support-program-underway/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2018/01/31/2018-r-consortium-r-user-group-support-program-underway/</guid>
+      <description>In just one year, the R Consortium through the R User Group Support program sponsored 76 R user groups and 3 small conferences with cash grants totaling just under $30,000. This program aligns with the R Consortium mission of fostering the continued growth of R community and the data science ecosystem, and has already helped bring more people to using R and contributing to the community.
+Coming off a successful 2017, we are pleased to announce the opening of the 2018 program today.</description>
+    </item>
+    
+    <item>
+      <title>Recap of rOpenSci&#39;s ozunconf - October 2017 in Melbourne</title>
+      <link>/blog-sandbox/2018/01/17/recap-ropenscis-ozunconf-october-2017-melbourne/</link>
+      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2018/01/17/recap-ropenscis-ozunconf-october-2017-melbourne/</guid>
+      <description>The R Consortium was happy to be a sponsor rOpenSci&amp;rsquo;s ozunconf last October in Melbourne. You can read about the &amp;ldquo;unconference&amp;rdquo; on rOpenSci&amp;rsquo;s blog and follow some of the projects begun at the event here.
+Through the RUGS program, R Consortium was honored to be a sponsor for this event. If you have an smaller event you would like support for, stay tuned for the official program announcement in early 2018.</description>
+    </item>
+    
+    <item>
+      <title>Recap of the uRos2017 conference</title>
+      <link>/blog-sandbox/2017/12/20/recap-uros2017-conference/</link>
+      <pubDate>Wed, 20 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2017/12/20/recap-uros2017-conference/</guid>
+      <description>Editor&amp;rsquo;s Note: This post comes from Nicoleta Caragea, uRos2017 conference organizer. uRos2017 is a conference held in November 2017 for collaboration around the use of R in Romania. Through the RUGS program, R Consortium was honored to be a sponsor for this event. If you have an smaller event you would like support for, stay tuned for the official program announcement in early 2018.
+The International Conference New Challenges for Statistical Software - The Use of R in Official Statistics - uRos2017, the fifth in a series of events, organized at Romanian NIS dedicated to the use of R Project in Romania, was held between 6-7 of November 2017.</description>
+    </item>
+    
+    <item>
+      <title>Q1 2017 ISC Grants</title>
+      <link>/blog-sandbox/2017/04/03/q1-2017-isc-grants/</link>
+      <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2017/04/03/q1-2017-isc-grants/</guid>
+      <description>by Hadley Wickham and Joseph Rickert
+The Infrastructure Steering Committee (ISC) was very pleased with both the quantity and quality of proposals received during the recent round of funding which closed on February 10th. Funding decisions were difficult. In the end, the ISC awarded grants to ten of the twenty-seven proposals it received for a total award of $234,000. Here is a brief summary of the projects that received awards.</description>
+    </item>
+    
+    <item>
+      <title>ISC Project Status Webinar</title>
+      <link>/blog-sandbox/2017/01/24/isc-project-status-webinar/</link>
+      <pubDate>Tue, 24 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2017/01/24/isc-project-status-webinar/</guid>
+      <description>Join us for a webinar on Jan 31, 2017 at 9:30 AM PST.
+[button color=&amp;ldquo;see-through-1&amp;rdquo; hover_text_color_override=&amp;ldquo;#fff&amp;rdquo; size=&amp;ldquo;large&amp;rdquo; url=&amp;ldquo;https://attendee.gotowebinar.com/recording/4493833045968682243&amp;quot; text=&amp;ldquo;View Recording&amp;rdquo; color_override=&amp;ldquo;&amp;rdquo;]
+Hear about R Consortium activities by watching the first ISC Project Status Webinar held on Tuesday, January 31st at 9:30AM PST (5:30PM GMT), 2017. Join us for 5 minute lightning talks on each active R Consortium project including:
+ R Hub - Gabor Csárdi  *
+SatRdays -Gergely Daroczi</description>
+    </item>
+    
+    <item>
+      <title>Join us at Watson DevCon November 9 – 10</title>
+      <link>/blog-sandbox/2016/10/17/join-us-at-watson-devcon-november-9-10/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2016/10/17/join-us-at-watson-devcon-november-9-10/</guid>
+      <description>Join us, November 9-10 at the Watson Developer Conference (R Consortium is co-sponsoring the event), at the Innovation Hangar in SanFrancisco, CA, for an opportunity to learn about the latest Watson technologies. Also meet some of the Watson teams and partners who are building with cognitive, real-time.
+This event will give you everything you need to build and learn about Watson. From weekend hacker to seasoned app builder, the conference is designed to have a little bit of something for everyone.</description>
+    </item>
+    
+    <item>
+      <title>R-Hub - Public Beta</title>
+      <link>/blog-sandbox/2016/10/11/r-hub-public-beta/</link>
+      <pubDate>Tue, 11 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2016/10/11/r-hub-public-beta/</guid>
+      <description>[vc_row type=&amp;ldquo;in_container&amp;rdquo; full_screen_row_position=&amp;ldquo;middle&amp;rdquo; scene_position=&amp;ldquo;center&amp;rdquo; text_color=&amp;ldquo;dark&amp;rdquo; text_align=&amp;ldquo;left&amp;rdquo; overlay_strength=&amp;ldquo;0.3&amp;rdquo;][vc_column column_padding=&amp;ldquo;no-extra-padding&amp;rdquo; column_padding_position=&amp;ldquo;all&amp;rdquo; background_color_opacity=&amp;ldquo;1&amp;rdquo; background_hover_color_opacity=&amp;ldquo;1&amp;rdquo; width=&amp;ldquo;1&amp;frasl;1&amp;rdquo; tablet_text_alignment=&amp;ldquo;default&amp;rdquo; phone_text_alignment=&amp;ldquo;default&amp;rdquo;][vc_column_text]R Hub - Public Beta Oct 25, 2016 9:00 AM - 10:00 AM PDT
+R-HUB, the most significant project that the R Consortium has funded to date, is making progress. The major goal of R-Hub is to develop a modern platform for simplifying and improving the R package development process. It will provide facilities to assist package creation, building binaries, and for publishing, distributing and maintaining packages.</description>
+    </item>
+    
+  </channel>
+</rss>

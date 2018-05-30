@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.41" />
+
+
+<title>RL10N hits its first milestone - R Consortium Wordpress Integration Sandbox</title>
+<meta property="og:title" content="RL10N hits its first milestone - R Consortium Wordpress Integration Sandbox">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/blog-sandbox/css/fonts.css" media="all">
+<link rel="stylesheet" href="/blog-sandbox/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="banner">
+  <a href="https://www.linuxfoundation.org/projects" class="banner-logo">
+    <img src="/blog-sandbox/images/logo_lf_projects_horizontal_2018.png"
+         width="300"
+         height="15"
+         alt="Linux Foundation">
+  </a>
+</div>
+
+        <nav class="nav">
+  <a href="/blog-sandbox/" class="nav-logo">
+    <img src="/blog-sandbox/images/RConsortium_Horizontal_Pantone.png"
+         width="200"
+         height="60"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/blog-sandbox/about/">About</a></li>
+    
+    <li><a href="/blog-sandbox/contact/">Contact</a></li>
+    
+    <li><a href="/blog-sandbox/members/">Members</a></li>
+    
+    <li><a href="/blog-sandbox/news/">News</a></li>
+    
+    <li><a href="/blog-sandbox/projects/">Projects</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">3 min read</span>
+    
+
+    
+    <h1 class="article-title">RL10N hits its first milestone</h1>
+    
+    
+    
+    <span class="article-date">2016/11/22</span>
+    
+
+    <div class="article-content">
+      
+
+<p>by Richard Cotton and Thomas Leeper</p>
+
+<p><img src="https://www.r-consortium.org/wp-content/uploads/sites/13/2016/11/Richie_logo-232x300.png" alt="richie_logo" /></p>
+
+<p>R is gradually taking over the world (of data analysis).  However, proficiency in English remains a prerequisite for effectively working with R.  While R has a system for translating messages, warnings, and error messages into other languages, very few packages take advantage of this functionality.</p>
+
+<p>Part of the problem is that it currently takes a lot of effort to create translations.  There are a few issues that the RL10N project aims to address. Firstly, the functionality contained in the tools package isn&rsquo;t particularly easy to work with. Secondly, finding translators can be difficult. RL10N aims to solve both of these problems.</p>
+
+<p>The project has reached its first milestone, having released the <strong><a href="https://cran.r-project.org/web/packages/poio/index.html"> poio</a></strong> package to CRAN. Translations of messages are stored in .pot master translation and .po language-specific translation files that are understood by the GNU gettext utility. <strong>poio</strong> provides functionality to read and write this file format.</p>
+
+<h3 id="setting-up-translations">Setting up Translations</h3>
+
+<p>The workflow to create translation infrastructure for a package is now reasonably straightforward.</p>
+
+<p>First, a .pot master translation file is created using the xgettext2pot from the <strong>tools</strong> package. The .pot file contains a few lines of metadata, consisting of name-value pairs.
+<code>
+&quot;Project-Id-Version: R 3.3.1\n&quot;
+&quot;Report-Msgid-Bugs-To: bugs.r-project.org\n&quot;
+&quot;POT-Creation-Date: 2016-11-06 17:19\n&quot;
+...
+</code>
+After this, it contains message ID lines, along with blank message translation lines.
+<code>
+msgid &quot;This is a message!&quot;
+msgstr &quot;&quot;
+</code>
+The second step is to read this file into R, using poio&rsquo;s read_po function.  (The same function reads both .po and .pot files, automatically detecting which is which.)
+<code>
+pot &lt;- read_po(pot_file)</code>
+The file created by x has some incorrect metadata values.  These can be fixed by calling fix_metadata.
+<code>
+pot_fixed &lt;- fix_metadata(pot)</code>
+Next, you need to choose some languages to translate your messages into.  You need to specify the languages as a two- or three-letter ISO 639 code.  These include &ldquo;fr&rdquo; for French, &ldquo;zn&rdquo; for Chinese, and country-specific variations like &ldquo;pt_BR&rdquo; for Brazilian Portuguese.  The language_codes dataset shows all the available language and country codes.</p>
+
+<p>For each language, you must generate a language-specific po object from the master translation, using generate_po_from_pot, then write it to a .po file using write_po.
+<code>
+for(lang in c(&quot;de&quot;, &quot;fr_BE&quot;))
+{
+po &lt;- generate_po_from_pot(pot, lang)
+write_po(po)
+}
+</code>
+That&rsquo;s it! You are now ready to translate.</p>
+
+<h3 id="next-steps">Next Steps</h3>
+
+<p>The <strong>msgtools</strong> package is currently under development, and has higher level tools for managing and updating translations, and integrating translations into packages.  The immediate next step is to integrate <strong>poio</strong> with <strong>msgtools</strong> and release the latter package to CRAN.</p>
+
+<p>Beyond this, the RL10N project has a plan to tackle the second problem: finding translators.  This will involve integrating automated translation functionality from Google Translate and Microsoft Translator into <strong>msgtools</strong>, as well as providing assistance with getting human translators.</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <p>Important copyright things go here</p>
+          </li>
+          <li>
+            <a href="/blog-sandbox/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+<script src="/blog-sandbox/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

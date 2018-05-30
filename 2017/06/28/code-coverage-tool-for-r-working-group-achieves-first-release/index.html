@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.41" />
+
+
+<title>Code Coverage Tool for R Working Group Achieves First Release - R Consortium Wordpress Integration Sandbox</title>
+<meta property="og:title" content="Code Coverage Tool for R Working Group Achieves First Release - R Consortium Wordpress Integration Sandbox">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/blog-sandbox/css/fonts.css" media="all">
+<link rel="stylesheet" href="/blog-sandbox/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="banner">
+  <a href="https://www.linuxfoundation.org/projects" class="banner-logo">
+    <img src="/blog-sandbox/images/logo_lf_projects_horizontal_2018.png"
+         width="300"
+         height="15"
+         alt="Linux Foundation">
+  </a>
+</div>
+
+        <nav class="nav">
+  <a href="/blog-sandbox/" class="nav-logo">
+    <img src="/blog-sandbox/images/RConsortium_Horizontal_Pantone.png"
+         width="200"
+         height="60"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/blog-sandbox/about/">About</a></li>
+    
+    <li><a href="/blog-sandbox/contact/">Contact</a></li>
+    
+    <li><a href="/blog-sandbox/members/">Members</a></li>
+    
+    <li><a href="/blog-sandbox/news/">News</a></li>
+    
+    <li><a href="/blog-sandbox/projects/">Projects</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">3 min read</span>
+    
+
+    
+    <h1 class="article-title">Code Coverage Tool for R Working Group Achieves First Release</h1>
+    
+    
+    
+    <span class="article-date">2017/06/28</span>
+    
+
+    <div class="article-content">
+      <p>by Mark Hornick, Code Coverage Working Group Leader</p>
+
+<p>The &ldquo;Code Coverage Tool for R&rdquo; project, proposed by Oracle and approved by the R Consortium Infrastructure Steering Committee, started just over a year ago. Project goals included providing an enhanced tool that determines code coverage upon execution of a test suite, and leveraging such a tool more broadly as part of the R ecosystem.</p>
+
+<p><strong>What is code coverage?</strong></p>
+
+<p>As defined in <a href="https://en.wikipedia.org/wiki/Code_coveragehttps:/en.wikipedia.org/wiki/Code_coverage">Wikipedia</a>, &ldquo;code coverage is a measure used to describe the degree to which the source code of a program is executed when a particular test suite runs. A program with high code coverage, measured as a percentage, has had more of its source code executed during testing which suggests it has a lower chance of containing undetected software bugs compared to a program with low code coverage.&rdquo;</p>
+
+<p><strong>Why code coverage?</strong></p>
+
+<p>Code coverage is an essential metric for understanding software quality. For R, developers and users alike should be able to easily see what percent of an R package&rsquo;s code has been tested and the status of those tests. By knowing code is well-tested, users have greater confidence in selecting CRAN packages. Further, automating test suite execution with code coverage analysis helps ensure new package versions don&rsquo;t unknowingly break existing tests and user code.</p>
+
+<p><strong>Approach and main features in release</strong></p>
+
+<p>After surveying the available code coverage tools in the R ecosystem, the working group decided to use the <strong><a href="https://cran.r-project.org/web/packages/covr/index.html">covr</a></strong> package, started by Jim Hester in December 2014, as a foundation and continue to build on its success. The working group has enhanced <strong>covr</strong> to support even more R language aspects and needed functionality, including:</p>
+
+<ul>
+<li><p>R6 methods support</p></li>
+
+<li><p>Address parallel code coverage</p></li>
+
+<li><p>Enable compiling R with Intel compiler ICC</p></li>
+
+<li><p>Enhanced documentation / vignettes</p></li>
+
+<li><p>Provide tool for benchmarking and defining canonical test suite for <strong>covr</strong></p></li>
+
+<li><p>Clean up dependent package license conflicts and change <strong>covr</strong> license to GPL-3</p></li>
+</ul>
+
+<p><strong>CRAN Process</strong></p>
+
+<p>Today, code coverage is an optional part of R package development. Some package authors/maintainers provide test suites and leverage code coverage to assess code quality. As noted above, code coverage has significant benefits for the R community to help ensure correct and robust software. One of the goals of the Code Coverage project is to incorporate code coverage testing and reporting into the CRAN process. This will involve working with the R Foundation and the R community on the following points:</p>
+
+<ul>
+<li><p>Encourage package authors and maintainers to develop, maintain, and expand test suites with their packages, and use the enhanced <strong>covr</strong> package to assess coverage</p></li>
+
+<li><p>Enable automatic execution of provided test suites as part of the CRAN process, just as binaries of software packages are made available, test suites would be executed and code coverage computed per package</p></li>
+
+<li><p>Display on each packages CRAN web page its code coverage results, e.g., the overall coverage percentage and a detailed report showing coverage per line of source code.</p></li>
+</ul>
+
+<p><strong>Next Steps</strong></p>
+
+<p>The working group will assess additional enhancements for <strong>covr</strong> that will benefit the R community. In addition, we plan to explore with the R Foundation the inclusion of code coverage results in the CRAN process.</p>
+
+<p><strong>Acknowledgements</strong></p>
+
+<p>The following individuals are members of the Code Coverage Working Group:</p>
+
+<ul>
+<li><p>Shivank Agrawal</p></li>
+
+<li><p>Chris Campbell</p></li>
+
+<li><p>Santosh Chaudhari</p></li>
+
+<li><p>Karl Forner</p></li>
+
+<li><p>Jim Hester</p></li>
+
+<li><p>Mark Hornick</p></li>
+
+<li><p>Chen Liang</p></li>
+
+<li><p>Willem Ligtenberg</p></li>
+
+<li><p>Andy Nicholls</p></li>
+
+<li><p>Vlad Sharanhovich</p></li>
+
+<li><p>Tobias Verbeke</p></li>
+
+<li><p>Qin Wang</p></li>
+
+<li><p>Hadley Wickham – ISC Sponsor</p></li>
+</ul>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <p>Important copyright things go here</p>
+          </li>
+          <li>
+            <a href="/blog-sandbox/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+

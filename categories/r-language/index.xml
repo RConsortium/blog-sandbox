@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R Language on R Consortium Wordpress Integration Sandbox</title>
+    <link>/blog-sandbox/categories/r-language/</link>
+    <description>Recent content in R Language on R Consortium Wordpress Integration Sandbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/blog-sandbox/categories/r-language/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ISC PROPOSAL SUBMISSION FAILURE</title>
+      <link>/blog-sandbox/2017/09/18/isc-proposal-submission-failure/</link>
+      <pubDate>Mon, 18 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2017/09/18/isc-proposal-submission-failure/</guid>
+      <description>by Joseph Rickert
+The ISC has determined that an error in the ISC proposal submission process has caused us to lose some, but not all proposals. If you submitted a project proposal to the ISC and have received a confirmation email then you are fine. However, if you have not received a confirmation email, please email your proposal as a pdf attachment to proposal@r-consortium.org
+If you do not receive a confirmation within 24 hours please email hadley@rstudio.</description>
+    </item>
+    
+    <item>
+      <title>Take the R Consortium&#39;s Survey on R!</title>
+      <link>/blog-sandbox/2017/06/29/take-the-r-consortiums-survey-on-r/</link>
+      <pubDate>Thu, 29 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2017/06/29/take-the-r-consortiums-survey-on-r/</guid>
+      <description>by Joseph Rickert and Hadley Wickham
+Help us keep the conversation going: Take the R Consortium&amp;rsquo;s Survey. Let us know: What are you thinking? What do you make of the way R is developing? How do you use R? What is important to you? How could life be better? What issues should we be addressing? What does the big picture look like? We are looking for a few clues and we would like to hear from the entire R Community.</description>
+    </item>
+    
+    <item>
+      <title>Code Coverage Tool for R Working Group Achieves First Release</title>
+      <link>/blog-sandbox/2017/06/28/code-coverage-tool-for-r-working-group-achieves-first-release/</link>
+      <pubDate>Wed, 28 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2017/06/28/code-coverage-tool-for-r-working-group-achieves-first-release/</guid>
+      <description>by Mark Hornick, Code Coverage Working Group Leader
+The &amp;ldquo;Code Coverage Tool for R&amp;rdquo; project, proposed by Oracle and approved by the R Consortium Infrastructure Steering Committee, started just over a year ago. Project goals included providing an enhanced tool that determines code coverage upon execution of a test suite, and leveraging such a tool more broadly as part of the R ecosystem.
+What is code coverage?
+As defined in Wikipedia, &amp;ldquo;code coverage is a measure used to describe the degree to which the source code of a program is executed when a particular test suite runs.</description>
+    </item>
+    
+    <item>
+      <title>Improving DBI: A Retrospect</title>
+      <link>/blog-sandbox/2017/05/15/improving-dbi-a-retrospect/</link>
+      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2017/05/15/improving-dbi-a-retrospect/</guid>
+      <description>by Kirill Müller
+The &amp;ldquo;Improving DBI&amp;rdquo; project, funded by the R consortium and started about a year ago includes the definition and implementation of a testable specification for DBI and making RSQLite fully compliant to the new specification. Besides the established DBI and RSQLite packages, I have spent a lot of time on the new DBItest package. Final updates to these packages will be pushed to CRAN at the end of May.</description>
+    </item>
+    
+    <item>
+      <title>Simple Features Now on CRAN</title>
+      <link>/blog-sandbox/2017/01/03/simple-features-now-on-cran/</link>
+      <pubDate>Tue, 03 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2017/01/03/simple-features-now-on-cran/</guid>
+      <description>by Edzer Pebesma
+Support for handling and analyzing spatial data in R goes back a long way. In 2003, a group of package developers sat together and decided to adopt a shared understanding of how spatial data should be organized in R. This led to the development of the package sp and its helper packages rgdal and rgeos. sp offers simple classes for points, lines, polygons and grids, which may be associated with further properties (attributes), and takes care of coordinate reference systems.</description>
+    </item>
+    
+    <item>
+      <title>Halfway through &#34;Improving DBI&#34;</title>
+      <link>/blog-sandbox/2016/12/05/halfway-through-improving-dbi/</link>
+      <pubDate>Mon, 05 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2016/12/05/halfway-through-improving-dbi/</guid>
+      <description>by Kirill Müller
+In early 2016 the R Consortium partially accepted my &amp;ldquo;Improving DBI&amp;rdquo; proposal. An important part is the design and implementation of a testable DBI specification. Initially I also proposed to make three DBI backends to open-source databases engines (RSQLite, RMySQL, and RPostgres) compatible to the new DBI specification, but funding allows to work on only one DBI backend. I chose RSQLite for a number of reasons:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on R Consortium Wordpress Integration Sandbox</title>
+    <link>/blog-sandbox/categories/news/</link>
+    <description>Recent content in News on R Consortium Wordpress Integration Sandbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/blog-sandbox/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R Consortium welcomes R-Ladies as a top level project</title>
+      <link>/blog-sandbox/2018/03/27/r-consortium-welcomes-r-ladies-as-a-top-level-project/</link>
+      <pubDate>Tue, 27 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2018/03/27/r-consortium-welcomes-r-ladies-as-a-top-level-project/</guid>
+      <description>In 2016, R-Ladies started their effort for a global expansion, with the help from the R-Consortium. Back then there were only 4 active chapters (San Francisco, Taipei, Twin Cities and London) and the goal was to expand to 5-10 cities within the next year. The enthusiasm within the R community for local R-Ladies chapters far exceeded any possible expectations! As of March 2018, the organization has over 90 chapters and almost 19,000 members.</description>
+    </item>
+    
+    <item>
+      <title>Announcing the second round of ISC Funded Projects for 2017</title>
+      <link>/blog-sandbox/2018/02/22/announcing-second-round-isc-funded-projects-2017/</link>
+      <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2018/02/22/announcing-second-round-isc-funded-projects-2017/</guid>
+      <description>The R Consortium ISC is pleased to announce that the projects listed below were funded under the 2017 edition of the ISC Funded Projects program. This program, which provides financial support for projects that enhance the infrastructure of the R ecosystem or which benefit large segments of the R Community, has awarded $500,000 USD in grants to date. The Spring 2018 call for proposals is now open and will continue to accept proposals until midnight PST on April 1, 2018.</description>
+    </item>
+    
+    <item>
+      <title>R Consortium Call For Proposals: February 2018</title>
+      <link>/blog-sandbox/2018/01/31/r-consortium-call-proposals-february-2018/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2018/01/31/r-consortium-call-proposals-february-2018/</guid>
+      <description>by Joseph Rickert
+The first ISC Call for Proposals for 2018 is now open. We are looking for ambitious projects that will contribute to the infrastructure of the R ecosystem and benefit large sections of the R community. However, we are not likely to fund proposals that ask for large initial cash grants. The ISC tends to be conservative with initial grants, preferring projects structured in such a way that significant initial milestones can be achieved with modest amounts of cash.</description>
+    </item>
+    
+    <item>
+      <title>The 2018 R Consortium R User Group Support Program is Underway.</title>
+      <link>/blog-sandbox/2018/01/31/2018-r-consortium-r-user-group-support-program-underway/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2018/01/31/2018-r-consortium-r-user-group-support-program-underway/</guid>
+      <description>In just one year, the R Consortium through the R User Group Support program sponsored 76 R user groups and 3 small conferences with cash grants totaling just under $30,000. This program aligns with the R Consortium mission of fostering the continued growth of R community and the data science ecosystem, and has already helped bring more people to using R and contributing to the community.
+Coming off a successful 2017, we are pleased to announce the opening of the 2018 program today.</description>
+    </item>
+    
+    <item>
+      <title>2018 R Consortium Silver member representatives for Board and ISC</title>
+      <link>/blog-sandbox/2017/12/22/2018-r-consortium-silver-member-representatives-board-isc/</link>
+      <pubDate>Fri, 22 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2017/12/22/2018-r-consortium-silver-member-representatives-board-isc/</guid>
+      <description>Per the R Consortium ByLaws and ISC Charter, the Silver Member class is entitled to elect individuals representative of the Silver Member class for a term starting January 1, 2018 through December 31, 2018 as follows:
+ 1 representative to the ISC
+ 1 Silver Member Board Director per every 7 Silver Members, subject to provisions 4.2 and 4.3(d) of the R Consortium ByLaws. This means the Silver Member class can elect up to 2 Board Directors representing the class.</description>
+    </item>
+    
+    <item>
+      <title>ISC PROPOSAL SUBMISSION FAILURE</title>
+      <link>/blog-sandbox/2017/09/18/isc-proposal-submission-failure/</link>
+      <pubDate>Mon, 18 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2017/09/18/isc-proposal-submission-failure/</guid>
+      <description>by Joseph Rickert
+The ISC has determined that an error in the ISC proposal submission process has caused us to lose some, but not all proposals. If you submitted a project proposal to the ISC and have received a confirmation email then you are fine. However, if you have not received a confirmation email, please email your proposal as a pdf attachment to proposal@r-consortium.org
+If you do not receive a confirmation within 24 hours please email hadley@rstudio.</description>
+    </item>
+    
+    <item>
+      <title>R Consortium Call for Proposals: Summer 2017</title>
+      <link>/blog-sandbox/2017/08/11/r-consortium-call-for-proposals-summer-2017/</link>
+      <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2017/08/11/r-consortium-call-for-proposals-summer-2017/</guid>
+      <description>by Joseph Rickert and Hadley Wickham
+The second and final ISC Call for Proposals for 2017 is now open. In this round, with the intention of spreading the available funds as widely as possible, the ISC is encouraging the R community to submit proposals for projects that are smaller in scope than those solicited earlier this year. For this round, the total funds requested for an individual grant should be less than $10,000.</description>
+    </item>
+    
+    <item>
+      <title>Take the R Consortium&#39;s Survey on R!</title>
+      <link>/blog-sandbox/2017/06/29/take-the-r-consortiums-survey-on-r/</link>
+      <pubDate>Thu, 29 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2017/06/29/take-the-r-consortiums-survey-on-r/</guid>
+      <description>by Joseph Rickert and Hadley Wickham
+Help us keep the conversation going: Take the R Consortium&amp;rsquo;s Survey. Let us know: What are you thinking? What do you make of the way R is developing? How do you use R? What is important to you? How could life be better? What issues should we be addressing? What does the big picture look like? We are looking for a few clues and we would like to hear from the entire R Community.</description>
+    </item>
+    
+    <item>
+      <title>Code Coverage Tool for R Working Group Achieves First Release</title>
+      <link>/blog-sandbox/2017/06/28/code-coverage-tool-for-r-working-group-achieves-first-release/</link>
+      <pubDate>Wed, 28 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2017/06/28/code-coverage-tool-for-r-working-group-achieves-first-release/</guid>
+      <description>by Mark Hornick, Code Coverage Working Group Leader
+The &amp;ldquo;Code Coverage Tool for R&amp;rdquo; project, proposed by Oracle and approved by the R Consortium Infrastructure Steering Committee, started just over a year ago. Project goals included providing an enhanced tool that determines code coverage upon execution of a test suite, and leveraging such a tool more broadly as part of the R ecosystem.
+What is code coverage?
+As defined in Wikipedia, &amp;ldquo;code coverage is a measure used to describe the degree to which the source code of a program is executed when a particular test suite runs.</description>
+    </item>
+    
+    <item>
+      <title>Improving DBI: A Retrospect</title>
+      <link>/blog-sandbox/2017/05/15/improving-dbi-a-retrospect/</link>
+      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2017/05/15/improving-dbi-a-retrospect/</guid>
+      <description>by Kirill Müller
+The &amp;ldquo;Improving DBI&amp;rdquo; project, funded by the R consortium and started about a year ago includes the definition and implementation of a testable specification for DBI and making RSQLite fully compliant to the new specification. Besides the established DBI and RSQLite packages, I have spent a lot of time on the new DBItest package. Final updates to these packages will be pushed to CRAN at the end of May.</description>
+    </item>
+    
+    <item>
+      <title>Gordon and Betty Moore Foundation Joins R Consortium to Encourage Development, Maintenance and Distribution of R Software</title>
+      <link>/blog-sandbox/2017/01/11/gordon-and-betty-moore-foundation-joins-r-consortium-to-encourage-development-maintenance-and-distribution-of-r-software/</link>
+      <pubDate>Wed, 11 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2017/01/11/gordon-and-betty-moore-foundation-joins-r-consortium-to-encourage-development-maintenance-and-distribution-of-r-software/</guid>
+      <description>_Grant is a part of the Moore Foundation&amp;rsquo;s Data-Driven Discovery Initiative to support data scientists _
+SAN FRANCISCO – [Jan 11, 2017, 10:00 ET] – The R Consortium, an open source foundation supporting the R user community and a Linux Foundation project, today welcomed the Gordon and Betty Moore Foundation to the Consortium as a supporting Platinum member. The Moore Foundation grant will enable the R Consortium to expand its support for the community developing, maintaining, distributing and using the R programming language.</description>
+    </item>
+    
+    <item>
+      <title>Introducing RC RUGS: R Consortium R User Group Support Program</title>
+      <link>/blog-sandbox/2016/11/03/introducing-rugs-r-consortium-r-user-group-support-program/</link>
+      <pubDate>Thu, 03 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2016/11/03/introducing-rugs-r-consortium-r-user-group-support-program/</guid>
+      <description>The R Consortium is very happy to announce RC RUGS, the R Consortium R User Group Support Program. We believe that user groups are a great strength of the R Community and we would like to do all that we can to encourage the formation of new user groups and to help existing R user groups flourish.
+The 2016&amp;frasl;2017 RC RUGS program provides financial support for R User Groups based on their size and the frequency with which they meet.</description>
+    </item>
+    
+    <item>
+      <title>Esri joins the R Consortium</title>
+      <link>/blog-sandbox/2016/09/26/esri-joins-the-r-consortium/</link>
+      <pubDate>Mon, 26 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2016/09/26/esri-joins-the-r-consortium/</guid>
+      <description>In another sign of R&amp;rsquo;s push into the enterprise, leading GIS vendor Esri has joined the R Consortium, adding to a roster of tech companies that includes Microsoft, IBM, Oracle and Google.
+READ MORE</description>
+    </item>
+    
+    <item>
+      <title>Business Insider Australia: Lean any 11 of these programming languages and you&#39;ll always have a job</title>
+      <link>/blog-sandbox/2016/06/26/business-insider-australia-lean-any-11-of-these-programming-languages-and-youll-always-have-a-job/</link>
+      <pubDate>Sun, 26 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2016/06/26/business-insider-australia-lean-any-11-of-these-programming-languages-and-youll-always-have-a-job/</guid>
+      <description>There are thousands of programming languages, but some of them are far more popular than others.
+READ MORE</description>
+    </item>
+    
+    <item>
+      <title>InfoWorld: Beginner&#39;s Guide to R</title>
+      <link>/blog-sandbox/2016/06/26/infoworld-beginners-guide-to-r/</link>
+      <pubDate>Sun, 26 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2016/06/26/infoworld-beginners-guide-to-r/</guid>
+      <description>Interest in the R statistics language is soaring, especially for data analysis. Get to know this hot programming option in our beginner&amp;rsquo;s guide.
+READ MORE</description>
+    </item>
+    
+    <item>
+      <title>Fast Company: Why the R programming language is good for business</title>
+      <link>/blog-sandbox/2016/05/26/fast-company-why-the-r-programming-language-is-good-for-business/</link>
+      <pubDate>Thu, 26 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2016/05/26/fast-company-why-the-r-programming-language-is-good-for-business/</guid>
+      <description>With terabytes of data at hand, every business is trying to figure out the best way to understand information about their customers and themselves.
+READ MORE</description>
+    </item>
+    
+    <item>
+      <title>FierceBigData: R Consortium funds initiatives to advance R language</title>
+      <link>/blog-sandbox/2016/03/28/fiercebigdata-r-consortium-funds-initiatives-to-advance-r-language/</link>
+      <pubDate>Mon, 28 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2016/03/28/fiercebigdata-r-consortium-funds-initiatives-to-advance-r-language/</guid>
+      <description>The R Consortium, which is an independent open source foundation that supports the R community and a Linux Foundation project, announced this morning that it is funding seven community projects and the formation of two technical working groups to further advance the R language. READ MORE.</description>
+    </item>
+    
+    <item>
+      <title>FierceBigData: R-Hub awarded first R Consortium grant</title>
+      <link>/blog-sandbox/2015/11/02/fiercebigdata-r-hub-awarded-first-r-consortium-grant/</link>
+      <pubDate>Mon, 02 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2015/11/02/fiercebigdata-r-hub-awarded-first-r-consortium-grant/</guid>
+      <description>R-Hub, a developing, building, testing and R packages validation service, is the recipient of the first ever R Consortium grant.
+READ MORE</description>
+    </item>
+    
+    <item>
+      <title>SD Times Digest: R Consortium announces first grant</title>
+      <link>/blog-sandbox/2015/11/02/sd-times-digest-r-consortium-announces-first-grant/</link>
+      <pubDate>Mon, 02 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2015/11/02/sd-times-digest-r-consortium-announces-first-grant/</guid>
+      <description>The R Consortium has announced its first grant will go to a new service designed for developing, building, testing and validating R packages.READ MORE.</description>
+    </item>
+    
+    <item>
+      <title>The VAR Guy: Open Source R Code to Get New Hub with Help from the Linux Foundation</title>
+      <link>/blog-sandbox/2015/11/02/the-var-guy-open-source-r-code-to-get-new-hub-with-help-from-the-linux-foundation/</link>
+      <pubDate>Mon, 02 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2015/11/02/the-var-guy-open-source-r-code-to-get-new-hub-with-help-from-the-linux-foundation/</guid>
+      <description>The R Consortium and the Linux Foundation will fund a new open source developer hub for the R programming language called R-Hub, which complements CRAN and R-Forge. READ MORE.</description>
+    </item>
+    
+    <item>
+      <title>Datanami: Consortium Makes Business Case For R Language</title>
+      <link>/blog-sandbox/2015/06/30/datanami-consortium-makes-business-case-for-r-language/</link>
+      <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2015/06/30/datanami-consortium-makes-business-case-for-r-language/</guid>
+      <description>As more data scientists and researchers embrace the R programming language and statistical computing environment, the Linux Foundation has moved to strengthen the user community and, with it, the development of more business applications through a collaborative development initiative called the R Consortium.
+READ MORE</description>
+    </item>
+    
+    <item>
+      <title>VentureBeat: Microsoft, Oracle, HP, Tibco, RStudio form the R Consortium under the Linux Foundation</title>
+      <link>/blog-sandbox/2015/06/30/venturebeat-microsoft-oracle-hp-tibco-rstudio-form-the-r-consortium-under-the-linux-foundation/</link>
+      <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2015/06/30/venturebeat-microsoft-oracle-hp-tibco-rstudio-form-the-r-consortium-under-the-linux-foundation/</guid>
+      <description>The nonprofit Linux Foundation today announced a new initiative called the R Consortium, a new group to unite the users of the open-source R programming language, which is widely used among data scientists and statisticians.
+READ MORE</description>
+    </item>
+    
+    <item>
+      <title>ComputerWorld: Google, Microsoft, Oracle back new R Consortium at Linux Foundation</title>
+      <link>/blog-sandbox/2015/06/29/computerworld-google-microsoft-oracle-back-new-r-consortium-at-linux-foundation/</link>
+      <pubDate>Mon, 29 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2015/06/29/computerworld-google-microsoft-oracle-back-new-r-consortium-at-linux-foundation/</guid>
+      <description>As foreshadowed on Twitter yesterday, a new R Consortium of major vendors launched today aimed at &amp;ldquo;strengthen[ing] both the technical and user communities,&amp;rdquo; according to a Linux Foundation announcement.
+READ MORE</description>
+    </item>
+    
+    <item>
+      <title>Revolution Analytics: R Consortium News Roundup</title>
+      <link>/blog-sandbox/2015/06/06/revolution-analytics-r-consortium-news-roundup/</link>
+      <pubDate>Sat, 06 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2015/06/06/revolution-analytics-r-consortium-news-roundup/</guid>
+      <description>In case you missed the news last week, the R Consortium was announced. This new non-profit trade group will work with the R Foundation to support the R Community and the R Project generally.
+READ MORE</description>
+    </item>
+    
+  </channel>
+</rss>
