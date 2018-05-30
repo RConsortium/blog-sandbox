@@ -1,14 +1,14 @@
 # copy-pasta from https://github.com/yihui/oldblog_xml/blob/master/convert.R
 
-xml_file <- "rconsortium.wordpress.2018-01-25.xml"
+xml_file <- "conversion/rconsortium.wordpress.2018-05-10.xml"
 old_url <- "https://www.r-consortium.org/blog"
 new_url <- "https://www.r-consortium.org/blog"
 
 # rename *.markdown to *.md
-files = list.files('post', '[.]markdown$', full.names = TRUE)
+files = list.files('conversion/post', '[.]markdown$', full.names = TRUE)
 file.rename(files, sub('[.]markdown$', '.md', files))
 
-files = list.files('post', '[.]md$', full.names = TRUE)
+files = list.files('conversion/post', '[.]md$', full.names = TRUE)
 
 # all possible authors
 blogdown:::collect_yaml('author', 'post')
@@ -154,7 +154,7 @@ if (length(links3)) {
 }
 
 local({
-  if (!dir.exists(d <- '../content/')) return()
+  if (!dir.exists(d <- "content/")) return()
   # unlink(file.path(d, 'post'), recursive = TRUE)
-  file.copy('post', d, recursive = TRUE)
+  file.copy('conversion/post', d, recursive = TRUE)
 })
