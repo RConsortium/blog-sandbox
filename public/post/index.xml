@@ -6,10 +6,77 @@
     <description>Recent content in Posts on R Consortium Wordpress Integration Sandbox</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog-sandbox/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Wanted: Your input on the next generation of R-Hub</title>
+      <link>/blog-sandbox/2018/04/19/wanted-your-input-on-the-next-generation-of-r-hub/</link>
+      <pubDate>Thu, 19 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2018/04/19/wanted-your-input-on-the-next-generation-of-r-hub/</guid>
+      <description>R-Hub, which was originally conceived as a useful tool for R package developers to build and test R packages on a variety of platforms, was the first project funded by the R Consortium. The initial version was released in June 2016. Now that the capabilities of R-Hub have progressed well beyond the proof of concept stage, the R Consortium is looking for ideas from the R community on how we can make it and even more useful for R users.</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s new with R Consortium funded projects in Q1 2018</title>
+      <link>/blog-sandbox/2018/04/16/whats-new-with-r-consortium-funded-projects-in-q1-2018/</link>
+      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2018/04/16/whats-new-with-r-consortium-funded-projects-in-q1-2018/</guid>
+      <description>In an effort to provide greater transparency with respect to R Consortium activities, the ISC is initiating process to provide quarterly updates for all R Consortium funded projects. The following is our update for Q1 2018.
+Quantities for R The r-quantities project has reached the first milestone with the design and implementation of an initial working prototype, which can be downloaded and tested from GitHub. Further details about the integration process that was necessary for the units and errors packages, as well as the next steps, were published in r-spatial.</description>
+    </item>
+    
+    <item>
+      <title>Package Licensing: Would the R Community like some help? Feedback from the trenches</title>
+      <link>/blog-sandbox/2018/04/12/package-licensing-would-the-r-community-like-some-help-feedback-from-the-trenches/</link>
+      <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2018/04/12/package-licensing-would-the-r-community-like-some-help-feedback-from-the-trenches/</guid>
+      <description>_Editor&amp;rsquo;s Note: This post comes from Mark Hornick, who leads the Code Coverage WG and serves on the Board of Directors. _
+In the Fall of 2017, the R Consortium surveyed the R Community to understand opportunities, concerns, and issues facing the community. Taking into account that feedback, the R Consortium recently surveyed package authors and maintainers on a number of topics surrounding R package licensing. Questions revolved around motivations for choice of license, comfort level in understanding license meaning and implications, importance of corporate adoption of R, and whether guidance on licensing from the R Consortium would be valuable.</description>
+    </item>
+    
+    <item>
+      <title>R Consortium welcomes R-Ladies as a top level project</title>
+      <link>/blog-sandbox/2018/03/27/r-consortium-welcomes-r-ladies-as-a-top-level-project/</link>
+      <pubDate>Tue, 27 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2018/03/27/r-consortium-welcomes-r-ladies-as-a-top-level-project/</guid>
+      <description>In 2016, R-Ladies started their effort for a global expansion, with the help from the R-Consortium. Back then there were only 4 active chapters (San Francisco, Taipei, Twin Cities and London) and the goal was to expand to 5-10 cities within the next year. The enthusiasm within the R community for local R-Ladies chapters far exceeded any possible expectations! As of March 2018, the organization has over 90 chapters and almost 19,000 members.</description>
+    </item>
+    
+    <item>
+      <title>Announcing the second round of ISC Funded Projects for 2017</title>
+      <link>/blog-sandbox/2018/02/22/announcing-second-round-isc-funded-projects-2017/</link>
+      <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2018/02/22/announcing-second-round-isc-funded-projects-2017/</guid>
+      <description>The R Consortium ISC is pleased to announce that the projects listed below were funded under the 2017 edition of the ISC Funded Projects program. This program, which provides financial support for projects that enhance the infrastructure of the R ecosystem or which benefit large segments of the R Community, has awarded $500,000 USD in grants to date. The Spring 2018 call for proposals is now open and will continue to accept proposals until midnight PST on April 1, 2018.</description>
+    </item>
+    
+    <item>
+      <title>R Consortium Call For Proposals: February 2018</title>
+      <link>/blog-sandbox/2018/01/31/r-consortium-call-proposals-february-2018/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2018/01/31/r-consortium-call-proposals-february-2018/</guid>
+      <description>by Joseph Rickert
+The first ISC Call for Proposals for 2018 is now open. We are looking for ambitious projects that will contribute to the infrastructure of the R ecosystem and benefit large sections of the R community. However, we are not likely to fund proposals that ask for large initial cash grants. The ISC tends to be conservative with initial grants, preferring projects structured in such a way that significant initial milestones can be achieved with modest amounts of cash.</description>
+    </item>
+    
+    <item>
+      <title>The 2018 R Consortium R User Group Support Program is Underway.</title>
+      <link>/blog-sandbox/2018/01/31/2018-r-consortium-r-user-group-support-program-underway/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog-sandbox/2018/01/31/2018-r-consortium-r-user-group-support-program-underway/</guid>
+      <description>In just one year, the R Consortium through the R User Group Support program sponsored 76 R user groups and 3 small conferences with cash grants totaling just under $30,000. This program aligns with the R Consortium mission of fostering the continued growth of R community and the data science ecosystem, and has already helped bring more people to using R and contributing to the community.
+Coming off a successful 2017, we are pleased to announce the opening of the 2018 program today.</description>
+    </item>
     
     <item>
       <title>Recap of rOpenSci&#39;s ozunconf - October 2017 in Melbourne</title>
@@ -17,7 +84,7 @@
       <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/blog-sandbox/2018/01/17/recap-ropenscis-ozunconf-october-2017-melbourne/</guid>
-      <description>The R Consortium was happy to be a sponsor rOpenSci’s ozunconf last October in Melbourne. You can read aboutthe “unconference” on rOpenSci’s blog and follow some of the projects begun at the event here.
+      <description>The R Consortium was happy to be a sponsor rOpenSci&amp;rsquo;s ozunconf last October in Melbourne. You can read about the &amp;ldquo;unconference&amp;rdquo; on rOpenSci&amp;rsquo;s blog and follow some of the projects begun at the event here.
 Through the RUGS program, R Consortium was honored to be a sponsor for this event. If you have an smaller event you would like support for, stay tuned for the official program announcement in early 2018.</description>
     </item>
     
@@ -38,9 +105,8 @@ Through the RUGS program, R Consortium was honored to be a sponsor for this even
       <pubDate>Wed, 20 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/blog-sandbox/2017/12/20/recap-uros2017-conference/</guid>
-      <description>Editor’s Note: This post comes from Nicoleta Caragea, uRos2017 conference organizer. uRos2017 is a conference held in November 2017 for collaboration around the use of R in Romania. Through the RUGS program, R Consortium was honored to be a sponsor for this event. If you have an smaller event you would like support for, stay tuned for the official program announcement in early 2018.
-uRos2017 conference
- The International Conference New Challenges for Statistical Software - The Use of R in Official Statistics - uRos2017, the fifth in a series of events, organized at Romanian NIS dedicated to the use of R Project in Romania, was held between 6-7 of November 2017.</description>
+      <description>Editor&amp;rsquo;s Note: This post comes from Nicoleta Caragea, uRos2017 conference organizer. uRos2017 is a conference held in November 2017 for collaboration around the use of R in Romania. Through the RUGS program, R Consortium was honored to be a sponsor for this event. If you have an smaller event you would like support for, stay tuned for the official program announcement in early 2018.
+The International Conference New Challenges for Statistical Software - The Use of R in Official Statistics - uRos2017, the fifth in a series of events, organized at Romanian NIS dedicated to the use of R Project in Romania, was held between 6-7 of November 2017.</description>
     </item>
     
     <item>
@@ -71,7 +137,7 @@ The second and final ISC Call for Proposals for 2017 is now open. In this round,
       
       <guid>/blog-sandbox/2017/06/29/take-the-r-consortiums-survey-on-r/</guid>
       <description>by Joseph Rickert and Hadley Wickham
-Help us keep the conversation going: Take the R Consortium’s Survey. Let us know: What are you thinking? What do you make of the way R is developing? How do you use R? What is important to you? How could life be better? What issues should we be addressing? What does the big picture look like? We are looking for a few clues and we would like to hear from the entire R Community.</description>
+Help us keep the conversation going: Take the R Consortium&amp;rsquo;s Survey. Let us know: What are you thinking? What do you make of the way R is developing? How do you use R? What is important to you? How could life be better? What issues should we be addressing? What does the big picture look like? We are looking for a few clues and we would like to hear from the entire R Community.</description>
     </item>
     
     <item>
@@ -81,9 +147,9 @@ Help us keep the conversation going: Take the R Consortium’s Survey. Let us kn
       
       <guid>/blog-sandbox/2017/06/28/code-coverage-tool-for-r-working-group-achieves-first-release/</guid>
       <description>by Mark Hornick, Code Coverage Working Group Leader
-The “Code Coverage Tool for R” project, proposed by Oracle and approved by the R Consortium Infrastructure Steering Committee, started just over a year ago. Project goals included providing an enhanced tool that determines code coverage upon execution of a test suite, and leveraging such a tool more broadly as part of the R ecosystem.
+The &amp;ldquo;Code Coverage Tool for R&amp;rdquo; project, proposed by Oracle and approved by the R Consortium Infrastructure Steering Committee, started just over a year ago. Project goals included providing an enhanced tool that determines code coverage upon execution of a test suite, and leveraging such a tool more broadly as part of the R ecosystem.
 What is code coverage?
-As defined in Wikipedia, “code coverage is a measure used to describe the degree to which the source code of a program is executed when a particular test suite runs.</description>
+As defined in Wikipedia, &amp;ldquo;code coverage is a measure used to describe the degree to which the source code of a program is executed when a particular test suite runs.</description>
     </item>
     
     <item>
@@ -93,7 +159,7 @@ As defined in Wikipedia, “code coverage is a measure used to describe the degr
       
       <guid>/blog-sandbox/2017/05/15/improving-dbi-a-retrospect/</guid>
       <description>by Kirill Müller
-The “Improving DBI” project, funded by the R consortium and started about a year ago includes the definition and implementation of a testable specification for DBI and making RSQLite fully compliant to the new specification. Besides the established DBI and RSQLite packages, I have spent a lot of time on the new DBItest package. Final updates to these packages will be pushed to CRAN at the end of May.</description>
+The &amp;ldquo;Improving DBI&amp;rdquo; project, funded by the R consortium and started about a year ago includes the definition and implementation of a testable specification for DBI and making RSQLite fully compliant to the new specification. Besides the established DBI and RSQLite packages, I have spent a lot of time on the new DBItest package. Final updates to these packages will be pushed to CRAN at the end of May.</description>
     </item>
     
     <item>
@@ -113,10 +179,10 @@ The Infrastructure Steering Committee (ISC) was very pleased with both the quant
       
       <guid>/blog-sandbox/2017/01/24/isc-project-status-webinar/</guid>
       <description>Join us for a webinar on Jan 31, 2017 at 9:30 AM PST.
-[button color=“see-through-1” hover_text_color_override=“#fff” size=“large” url=“https://attendee.gotowebinar.com/recording/4493833045968682243” text=“View Recording” color_override=“”]
+[button color=&amp;ldquo;see-through-1&amp;rdquo; hover_text_color_override=&amp;ldquo;#fff&amp;rdquo; size=&amp;ldquo;large&amp;rdquo; url=&amp;ldquo;https://attendee.gotowebinar.com/recording/4493833045968682243&amp;quot; text=&amp;ldquo;View Recording&amp;rdquo; color_override=&amp;ldquo;&amp;rdquo;]
 Hear about R Consortium activities by watching the first ISC Project Status Webinar held on Tuesday, January 31st at 9:30AM PST (5:30PM GMT), 2017. Join us for 5 minute lightning talks on each active R Consortium project including:
- R Hub - Gabor Csárdi
-   SatRdays -Gergely Daroczi</description>
+ R Hub - Gabor Csárdi  *
+SatRdays -Gergely Daroczi</description>
     </item>
     
     <item>
@@ -125,7 +191,7 @@ Hear about R Consortium activities by watching the first ISC Project Status Webi
       <pubDate>Wed, 11 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>/blog-sandbox/2017/01/11/gordon-and-betty-moore-foundation-joins-r-consortium-to-encourage-development-maintenance-and-distribution-of-r-software/</guid>
-      <description>Grant is a part of the Moore Foundation’s Data-Driven Discovery Initiative to support data scientists 
+      <description>_Grant is a part of the Moore Foundation&amp;rsquo;s Data-Driven Discovery Initiative to support data scientists _
 SAN FRANCISCO – [Jan 11, 2017, 10:00 ET] – The R Consortium, an open source foundation supporting the R user community and a Linux Foundation project, today welcomed the Gordon and Betty Moore Foundation to the Consortium as a supporting Platinum member. The Moore Foundation grant will enable the R Consortium to expand its support for the community developing, maintaining, distributing and using the R programming language.</description>
     </item>
     
@@ -146,7 +212,7 @@ Support for handling and analyzing spatial data in R goes back a long way. In 20
       
       <guid>/blog-sandbox/2016/12/06/call-for-proposals/</guid>
       <description>by Hadley Wickham
-The infrastructure Steering Committee (ISC) is pleased to announce that the committee is now ready to accept proposals for the first round of funding in 2017. The ISC is broadly interested in projects that will make a difference to the R community. Don’t be afraid to think big! We have the budget to fund ambitious projects and we want to fund infrastructure that can help large segments of the R community.</description>
+The infrastructure Steering Committee (ISC) is pleased to announce that the committee is now ready to accept proposals for the first round of funding in 2017. The ISC is broadly interested in projects that will make a difference to the R community. Don&amp;rsquo;t be afraid to think big! We have the budget to fund ambitious projects and we want to fund infrastructure that can help large segments of the R community.</description>
     </item>
     
     <item>
@@ -156,8 +222,7 @@ The infrastructure Steering Committee (ISC) is pleased to announce that the comm
       
       <guid>/blog-sandbox/2016/12/05/halfway-through-improving-dbi/</guid>
       <description>by Kirill Müller
-In early 2016 the R Consortium partially accepted my “Improving DBI” proposal. An important part is the design and implementation of a testable DBI specification. Initially I also proposed to make three DBI backends to open-source databases engines (RSQLite, RMySQL, and RPostgres) compatible to the new DBI specification, but funding allows to work on only one DBI backend. I chose RSQLite for a number of reasons:
- It is a very important package, judging by the number of reverse CRAN and Bioconductor dependencies</description>
+In early 2016 the R Consortium partially accepted my &amp;ldquo;Improving DBI&amp;rdquo; proposal. An important part is the design and implementation of a testable DBI specification. Initially I also proposed to make three DBI backends to open-source databases engines (RSQLite, RMySQL, and RPostgres) compatible to the new DBI specification, but funding allows to work on only one DBI backend. I chose RSQLite for a number of reasons:</description>
     </item>
     
     <item>
@@ -167,8 +232,7 @@ In early 2016 the R Consortium partially accepted my “Improving DBI” proposa
       
       <guid>/blog-sandbox/2016/11/22/rl10n-hits-its-first-milestone/</guid>
       <description>by Richard Cotton and Thomas Leeper
-richie_logo
- R is gradually taking over the world (of data analysis). However, proficiency in English remains a prerequisite for effectively working with R. While R has a system for translating messages, warnings, and error messages into other languages, very few packages take advantage of this functionality.
+R is gradually taking over the world (of data analysis). However, proficiency in English remains a prerequisite for effectively working with R. While R has a system for translating messages, warnings, and error messages into other languages, very few packages take advantage of this functionality.
 Part of the problem is that it currently takes a lot of effort to create translations. There are a few issues that the RL10N project aims to address.</description>
     </item>
     
@@ -179,7 +243,7 @@ Part of the problem is that it currently takes a lot of effort to create transla
       
       <guid>/blog-sandbox/2016/11/03/introducing-rugs-r-consortium-r-user-group-support-program/</guid>
       <description>The R Consortium is very happy to announce RC RUGS, the R Consortium R User Group Support Program. We believe that user groups are a great strength of the R Community and we would like to do all that we can to encourage the formation of new user groups and to help existing R user groups flourish.
-The 2016/2017 RC RUGS program provides financial support for R User Groups based on their size and the frequency with which they meet.</description>
+The 2016&amp;frasl;2017 RC RUGS program provides financial support for R User Groups based on their size and the frequency with which they meet.</description>
     </item>
     
     <item>
@@ -198,7 +262,7 @@ This event will give you everything you need to build and learn about Watson. Fr
       <pubDate>Tue, 11 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>/blog-sandbox/2016/10/11/r-hub-public-beta/</guid>
-      <description>[vc_row type=“in_container” full_screen_row_position=“middle” scene_position=“center” text_color=“dark” text_align=“left” overlay_strength=“0.3”][vc_column column_padding=“no-extra-padding” column_padding_position=“all” background_color_opacity=“1” background_hover_color_opacity=“1” width=“1/1” tablet_text_alignment=“default” phone_text_alignment=“default”][vc_column_text]R Hub - Public Beta Oct 25, 2016 9:00 AM - 10:00 AM PDT
+      <description>[vc_row type=&amp;ldquo;in_container&amp;rdquo; full_screen_row_position=&amp;ldquo;middle&amp;rdquo; scene_position=&amp;ldquo;center&amp;rdquo; text_color=&amp;ldquo;dark&amp;rdquo; text_align=&amp;ldquo;left&amp;rdquo; overlay_strength=&amp;ldquo;0.3&amp;rdquo;][vc_column column_padding=&amp;ldquo;no-extra-padding&amp;rdquo; column_padding_position=&amp;ldquo;all&amp;rdquo; background_color_opacity=&amp;ldquo;1&amp;rdquo; background_hover_color_opacity=&amp;ldquo;1&amp;rdquo; width=&amp;ldquo;1&amp;frasl;1&amp;rdquo; tablet_text_alignment=&amp;ldquo;default&amp;rdquo; phone_text_alignment=&amp;ldquo;default&amp;rdquo;][vc_column_text]R Hub - Public Beta Oct 25, 2016 9:00 AM - 10:00 AM PDT
 R-HUB, the most significant project that the R Consortium has funded to date, is making progress. The major goal of R-Hub is to develop a modern platform for simplifying and improving the R package development process. It will provide facilities to assist package creation, building binaries, and for publishing, distributing and maintaining packages.</description>
     </item>
     
@@ -208,7 +272,7 @@ R-HUB, the most significant project that the R Consortium has funded to date, is
       <pubDate>Mon, 26 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>/blog-sandbox/2016/09/26/esri-joins-the-r-consortium/</guid>
-      <description>In another sign of R’s push into the enterprise, leading GIS vendor Esri has joined the R Consortium, adding to a roster of tech companies that includes Microsoft, IBM, Oracle and Google.
+      <description>In another sign of R&amp;rsquo;s push into the enterprise, leading GIS vendor Esri has joined the R Consortium, adding to a roster of tech companies that includes Microsoft, IBM, Oracle and Google.
 READ MORE</description>
     </item>
     
@@ -218,7 +282,7 @@ READ MORE</description>
       <pubDate>Wed, 07 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>/blog-sandbox/2016/09/07/the-start-of-satrdays/</guid>
-      <description>[vc_row type=“in_container” full_screen_row_position=“middle” scene_position=“center” text_color=“dark” text_align=“left” overlay_strength=“0.3”][vc_column column_padding=“no-extra-padding” column_padding_position=“all” background_color_opacity=“1” background_hover_color_opacity=“1” width=“1/1” tablet_text_alignment=“default” phone_text_alignment=“default”][vc_column_text]by Gergely Daroczi, organizer
+      <description>[vc_row type=&amp;ldquo;in_container&amp;rdquo; full_screen_row_position=&amp;ldquo;middle&amp;rdquo; scene_position=&amp;ldquo;center&amp;rdquo; text_color=&amp;ldquo;dark&amp;rdquo; text_align=&amp;ldquo;left&amp;rdquo; overlay_strength=&amp;ldquo;0.3&amp;rdquo;][vc_column column_padding=&amp;ldquo;no-extra-padding&amp;rdquo; column_padding_position=&amp;ldquo;all&amp;rdquo; background_color_opacity=&amp;ldquo;1&amp;rdquo; background_hover_color_opacity=&amp;ldquo;1&amp;rdquo; width=&amp;ldquo;1&amp;frasl;1&amp;rdquo; tablet_text_alignment=&amp;ldquo;default&amp;rdquo; phone_text_alignment=&amp;ldquo;default&amp;rdquo;][vc_column_text]by Gergely Daroczi, organizer
 Almost 200 people from 19 countries registered for the first satRday conference which was held last Saturday, September 3rd, in Budapest. The final count showed that nearly 170 R users spent 12 hours at the conference venue attending workshops, regular and lighting talks, social events and a data visualization challenge. If you missed the event, you can rewatch the live stream of the conference talks at any time.</description>
     </item>
     
@@ -228,7 +292,7 @@ Almost 200 people from 19 countries registered for the first satRday conference 
       <pubDate>Mon, 22 Aug 2016 00:00:00 +0000</pubDate>
       
       <guid>/blog-sandbox/2016/08/22/the-r-consortium-funds-three-projects-in-july/</guid>
-      <description>[vc_row type=“in_container” full_screen_row_position=“middle” scene_position=“center” text_color=“dark” text_align=“left” overlay_strength=“0.3”][vc_column column_padding=“no-extra-padding” column_padding_position=“all” background_color_opacity=“1” background_hover_color_opacity=“1” width=“1/1” tablet_text_alignment=“default” phone_text_alignment=“default”][vc_column_text]
+      <description>[vc_row type=&amp;ldquo;in_container&amp;rdquo; full_screen_row_position=&amp;ldquo;middle&amp;rdquo; scene_position=&amp;ldquo;center&amp;rdquo; text_color=&amp;ldquo;dark&amp;rdquo; text_align=&amp;ldquo;left&amp;rdquo; overlay_strength=&amp;ldquo;0.3&amp;rdquo;][vc_column column_padding=&amp;ldquo;no-extra-padding&amp;rdquo; column_padding_position=&amp;ldquo;all&amp;rdquo; background_color_opacity=&amp;ldquo;1&amp;rdquo; background_hover_color_opacity=&amp;ldquo;1&amp;rdquo; width=&amp;ldquo;1&amp;frasl;1&amp;rdquo; tablet_text_alignment=&amp;ldquo;default&amp;rdquo; phone_text_alignment=&amp;ldquo;default&amp;rdquo;][vc_column_text]
 by Joseph Rickert and Hadley Wickham
 The Infrastructure Steering Committee (ISC) has approved funding for three of the thirteen proposed projects received during the most recent round of contributed proposals which closed on July 10th. The total amount awarded was just over $29,000. A brief description of each of these projects follows.
 The R Documentation Task Force: The Next Generation R Documentation System Andrew Redd received $10,000 to lead a new ISC working group, The R Documentation Task Force, which has a mission to design and build the next generation R documentation system.</description>
@@ -250,7 +314,7 @@ READ MORE</description>
       <pubDate>Sun, 26 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>/blog-sandbox/2016/06/26/infoworld-beginners-guide-to-r/</guid>
-      <description>Interest in the R statistics language is soaring, especially for data analysis. Get to know this hot programming option in our beginner’s guide.
+      <description>Interest in the R statistics language is soaring, especially for data analysis. Get to know this hot programming option in our beginner&amp;rsquo;s guide.
 READ MORE</description>
     </item>
     
@@ -260,7 +324,7 @@ READ MORE</description>
       <pubDate>Mon, 06 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>/blog-sandbox/2016/06/06/first-public-version-of-the-r-hub-builder/</guid>
-      <description>[vc_row type=“in_container” full_screen_row_position=“middle” scene_position=“center” text_color=“dark” text_align=“left” overlay_strength=“0.3”][vc_column column_padding=“no-extra-padding” column_padding_position=“all” background_color_opacity=“1” background_hover_color_opacity=“1” width=“1/1” tablet_text_alignment=“default” phone_text_alignment=“default”][vc_column_text]
+      <description>[vc_row type=&amp;ldquo;in_container&amp;rdquo; full_screen_row_position=&amp;ldquo;middle&amp;rdquo; scene_position=&amp;ldquo;center&amp;rdquo; text_color=&amp;ldquo;dark&amp;rdquo; text_align=&amp;ldquo;left&amp;rdquo; overlay_strength=&amp;ldquo;0.3&amp;rdquo;][vc_column column_padding=&amp;ldquo;no-extra-padding&amp;rdquo; column_padding_position=&amp;ldquo;all&amp;rdquo; background_color_opacity=&amp;ldquo;1&amp;rdquo; background_hover_color_opacity=&amp;ldquo;1&amp;rdquo; width=&amp;ldquo;1&amp;frasl;1&amp;rdquo; tablet_text_alignment=&amp;ldquo;default&amp;rdquo; phone_text_alignment=&amp;ldquo;default&amp;rdquo;][vc_column_text]
 The r-hub builder is the first major project of the R consortium. It is an R package build and continuous integration service, open to all members of the R community.
 Goals for R-Hub include:
  simplify the R package development process: creating a package, building binaries and continuous integration, publishing, distributing and maintaining it;
@@ -303,7 +367,7 @@ READ MORE</description>
       
       <guid>/blog-sandbox/2016/03/23/r-consortium-funds-technical-initiatives-community-events-and-training-to-support-r-user-community/</guid>
       <description>_ R Consortium awards seven grant recipients and forms two working groups to advance R programming language_
-SAN FRANCISCO – March 23, 2016 – The R Consortium, an open source foundation to support the R user community and a Linux Foundation project, today is announcing funding for seven community projects and the formation of two technical working groups. These milestones advance the R Consortium’s mission to support the R community through the identification, development and implementation of infrastructure projects that drive standards and best practices for R code.</description>
+SAN FRANCISCO – March 23, 2016 – The R Consortium, an open source foundation to support the R user community and a Linux Foundation project, today is announcing funding for seven community projects and the formation of two technical working groups. These milestones advance the R Consortium&amp;rsquo;s mission to support the R community through the identification, development and implementation of infrastructure projects that drive standards and best practices for R code.</description>
     </item>
     
     <item>
@@ -312,7 +376,7 @@ SAN FRANCISCO – March 23, 2016 – The R Consortium, an open source foundation
       <pubDate>Fri, 11 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>/blog-sandbox/2016/03/11/r-consortium-outlook-2016/</guid>
-      <description>[vc_row type=“in_container” full_screen_row_position=“middle” scene_position=“center” text_color=“dark” text_align=“left” overlay_strength=“0.3”][vc_column column_padding=“no-extra-padding” column_padding_position=“all” background_color_opacity=“1” background_hover_color_opacity=“1” width=“1/1” tablet_text_alignment=“default” phone_text_alignment=“default”][vc_column_text]2016 is already shaping up to be another banner year for the R Project. The project is as active as ever, with the new R 3.2.4 just released (and R 3.3.0 following up very soon), and the milestone of 8,000 contributed packages was passed just last month (coincidentally, on the 16th anniversary of the release of R 1.</description>
+      <description>[vc_row type=&amp;ldquo;in_container&amp;rdquo; full_screen_row_position=&amp;ldquo;middle&amp;rdquo; scene_position=&amp;ldquo;center&amp;rdquo; text_color=&amp;ldquo;dark&amp;rdquo; text_align=&amp;ldquo;left&amp;rdquo; overlay_strength=&amp;ldquo;0.3&amp;rdquo;][vc_column column_padding=&amp;ldquo;no-extra-padding&amp;rdquo; column_padding_position=&amp;ldquo;all&amp;rdquo; background_color_opacity=&amp;ldquo;1&amp;rdquo; background_hover_color_opacity=&amp;ldquo;1&amp;rdquo; width=&amp;ldquo;1&amp;frasl;1&amp;rdquo; tablet_text_alignment=&amp;ldquo;default&amp;rdquo; phone_text_alignment=&amp;ldquo;default&amp;rdquo;][vc_column_text]2016 is already shaping up to be another banner year for the R Project. The project is as active as ever, with the new R 3.2.4 just released (and R 3.3.0 following up very soon), and the milestone of 8,000 contributed packages was passed just last month (coincidentally, on the 16th anniversary of the release of R 1.</description>
     </item>
     
     <item>
@@ -367,7 +431,7 @@ READ MORE</description>
       <pubDate>Thu, 24 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>/blog-sandbox/2015/09/24/r-consortium-infrastructure-steering-committee-isc-elects-chair/</guid>
-      <description>[vc_row type=“in_container” full_screen_row_position=“middle” scene_position=“center” text_color=“dark” text_align=“left” overlay_strength=“0.3”][vc_column column_padding=“no-extra-padding” column_padding_position=“all” background_color_opacity=“1” background_hover_color_opacity=“1” width=“1/1” tablet_text_alignment=“default” phone_text_alignment=“default”][vc_column_text]by Joseph Rickert
+      <description>[vc_row type=&amp;ldquo;in_container&amp;rdquo; full_screen_row_position=&amp;ldquo;middle&amp;rdquo; scene_position=&amp;ldquo;center&amp;rdquo; text_color=&amp;ldquo;dark&amp;rdquo; text_align=&amp;ldquo;left&amp;rdquo; overlay_strength=&amp;ldquo;0.3&amp;rdquo;][vc_column column_padding=&amp;ldquo;no-extra-padding&amp;rdquo; column_padding_position=&amp;ldquo;all&amp;rdquo; background_color_opacity=&amp;ldquo;1&amp;rdquo; background_hover_color_opacity=&amp;ldquo;1&amp;rdquo; width=&amp;ldquo;1&amp;frasl;1&amp;rdquo; tablet_text_alignment=&amp;ldquo;default&amp;rdquo; phone_text_alignment=&amp;ldquo;default&amp;rdquo;][vc_column_text]by Joseph Rickert
 This week, the Infrastructure Steering Committee (ISC) of the R Consortium unanimously elected Hadley Wickham as its chair thereby also giving Hadley a seat on the R Consortium board of directors. Congratulations Hadley!!
 This is a major step forward towards putting the R Consortium in business. Not only is the ISC the group that will decide on what projects the R Consortium will undertake, but it will also be responsible for actually getting the work done.</description>
     </item>
@@ -378,7 +442,7 @@ This is a major step forward towards putting the R Consortium in business. Not o
       <pubDate>Mon, 17 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>/blog-sandbox/2015/08/17/best-practices-for-using-r-securely/</guid>
-      <description>[vc_row type=“in_container” full_screen_row_position=“middle” scene_position=“center” text_color=“dark” text_align=“left” overlay_strength=“0.3”][vc_column column_padding=“no-extra-padding” column_padding_position=“all” background_color_opacity=“1” background_hover_color_opacity=“1” width=“1/1” tablet_text_alignment=“default” phone_text_alignment=“default”][vc_column_text]The R Consortium was formed to serve the interests of the R user community, and to that end the members of the R Consortium would like to share some best practices for using R securely and safely. These recommendations are not unique to R: you should follow similar practices for any software you download from the Internet.</description>
+      <description>[vc_row type=&amp;ldquo;in_container&amp;rdquo; full_screen_row_position=&amp;ldquo;middle&amp;rdquo; scene_position=&amp;ldquo;center&amp;rdquo; text_color=&amp;ldquo;dark&amp;rdquo; text_align=&amp;ldquo;left&amp;rdquo; overlay_strength=&amp;ldquo;0.3&amp;rdquo;][vc_column column_padding=&amp;ldquo;no-extra-padding&amp;rdquo; column_padding_position=&amp;ldquo;all&amp;rdquo; background_color_opacity=&amp;ldquo;1&amp;rdquo; background_hover_color_opacity=&amp;ldquo;1&amp;rdquo; width=&amp;ldquo;1&amp;frasl;1&amp;rdquo; tablet_text_alignment=&amp;ldquo;default&amp;rdquo; phone_text_alignment=&amp;ldquo;default&amp;rdquo;][vc_column_text]The R Consortium was formed to serve the interests of the R user community, and to that end the members of the R Consortium would like to share some best practices for using R securely and safely. These recommendations are not unique to R: you should follow similar practices for any software you download from the Internet.</description>
     </item>
     
     <item>
@@ -387,7 +451,7 @@ This is a major step forward towards putting the R Consortium in business. Not o
       <pubDate>Thu, 13 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>/blog-sandbox/2015/08/13/the-r-consortium-begins-its-mission/</guid>
-      <description>[vc_row type=“in_container” full_screen_row_position=“middle” scene_position=“center” text_color=“dark” text_align=“left” overlay_strength=“0.3”][vc_column column_padding=“no-extra-padding” column_padding_position=“all” background_color_opacity=“1” background_hover_color_opacity=“1” width=“1/1” tablet_text_alignment=“default” phone_text_alignment=“default”][vc_column_text]Since the announcement of the R Consortium on June 30, the members of the Consortium have begun the mission of supporting the R project and the vast community of R users around the world. The first task was to appoint members of the Board of the R Consortium, and to that end we are pleased to announce the following board members:</description>
+      <description>[vc_row type=&amp;ldquo;in_container&amp;rdquo; full_screen_row_position=&amp;ldquo;middle&amp;rdquo; scene_position=&amp;ldquo;center&amp;rdquo; text_color=&amp;ldquo;dark&amp;rdquo; text_align=&amp;ldquo;left&amp;rdquo; overlay_strength=&amp;ldquo;0.3&amp;rdquo;][vc_column column_padding=&amp;ldquo;no-extra-padding&amp;rdquo; column_padding_position=&amp;ldquo;all&amp;rdquo; background_color_opacity=&amp;ldquo;1&amp;rdquo; background_hover_color_opacity=&amp;ldquo;1&amp;rdquo; width=&amp;ldquo;1&amp;frasl;1&amp;rdquo; tablet_text_alignment=&amp;ldquo;default&amp;rdquo; phone_text_alignment=&amp;ldquo;default&amp;rdquo;][vc_column_text]Since the announcement of the R Consortium on June 30, the members of the Consortium have begun the mission of supporting the R project and the vast community of R users around the world. The first task was to appoint members of the Board of the R Consortium, and to that end we are pleased to announce the following board members:</description>
     </item>
     
     <item>
@@ -406,7 +470,7 @@ READ MORE</description>
       <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
       
       <guid>/blog-sandbox/2015/06/30/linux-foundation-announces-r-consortium-to-support-millions-of-users-around-the-world/</guid>
-      <description>Data scientists from industry and academic research will work together to advance world’s most popular language for analytics and data science and support the rapid growth of the R user community SAN FRANCISCO, Calif., June 30, 2015 – The Linux Foundation, the nonprofit organization dedicated to accelerating the growth of Linux and collaborative development, today announced the R Consortium. This new organization will strengthen both the technical and user communities as a Collaborative Project hosted at Linux Foundation.</description>
+      <description>Data scientists from industry and academic research will work together to advance world&amp;rsquo;s most popular language for analytics and data science and support the rapid growth of the R user community SAN FRANCISCO, Calif., June 30, 2015 – The Linux Foundation, the nonprofit organization dedicated to accelerating the growth of Linux and collaborative development, today announced the R Consortium. This new organization will strengthen both the technical and user communities as a Collaborative Project hosted at Linux Foundation.</description>
     </item>
     
     <item>
@@ -425,7 +489,7 @@ READ MORE</description>
       <pubDate>Mon, 29 Jun 2015 00:00:00 +0000</pubDate>
       
       <guid>/blog-sandbox/2015/06/29/computerworld-google-microsoft-oracle-back-new-r-consortium-at-linux-foundation/</guid>
-      <description>As foreshadowed on Twitter yesterday, a new R Consortium of major vendors launched today aimed at “strengthen[ing] both the technical and user communities,” according to a Linux Foundation announcement.
+      <description>As foreshadowed on Twitter yesterday, a new R Consortium of major vendors launched today aimed at &amp;ldquo;strengthen[ing] both the technical and user communities,&amp;rdquo; according to a Linux Foundation announcement.
 READ MORE</description>
     </item>
     
